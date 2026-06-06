@@ -1,0 +1,248 @@
+--------- beginning of system
+06-06 08:48:08.091   546  1007 W ActivityTaskManager: callingPackage for (uid=2000, pid=2437) has no WPC
+06-06 08:48:08.092   546  1007 D CompatChangeReporter: Compat change id reported: 151861875; UID 10164; state: ENABLED
+06-06 08:48:08.092   546  1007 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+--------- beginning of main
+06-06 08:48:08.093   546  1007 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10164, packageName = null, attributionTag = null, token = android.os.Binder@9e1f57e, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 08:48:08.093   546  1007 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-06 08:48:08.093   546  1007 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-06 08:48:08.095   546  1007 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-06 08:48:08.096   546  1007 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-06 08:48:08.096   780   816 V WindowManagerShell: Transition requested (#9): android.os.BinderProxy@3903e43 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=552 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=533286 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@bdfedf9} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{70613e ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9 }
+06-06 08:48:08.096   546   614 D CompatChangeReporter: Compat change id reported: 309578419; UID 10164; state: ENABLED
+06-06 08:48:08.097   546   572 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10164, packageName = null, attributionTag = null, token = android.os.Binder@9e1f57e, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 08:48:08.097  1183  1183 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=552, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-06 08:48:08.102   780   866 D SplashScreenView: Build android.window.SplashScreenView{cc3016d V.E...... ......ID 0,0-0,0}
+06-06 08:48:08.102   780   866 D SplashScreenView: Icon: view: android.widget.ImageView{c501a2 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@fad3e33 size: 420
+06-06 08:48:08.102   780   866 D SplashScreenView: Branding: view: android.view.View{42935f0 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+06-06 08:48:08.108   358   358 D Zygote  : Forked child process 2441
+06-06 08:48:08.108   546   581 I ActivityManager: Start proc 2441:ru.poryadok5.app/u0a164 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 08:48:08.111   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-06 08:48:08.112   546  1007 D CoreBackPreview: Window{ab48a27 u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1117a40, mPriority=0, mIsAnimationCallback=false}
+06-06 08:48:08.116  2441  2441 I u.poryadok5.app: Late-enabling -Xcheck:jni
+06-06 08:48:08.123   780  2404 V WindowManagerShell: onTransitionReady(transaction=2345052144306)
+06-06 08:48:08.124   780   816 V WindowManagerShell: onTransitionReady (#9) android.os.BinderProxy@3903e43: {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1a83c87} m=OPEN f=NONE leash=Surface(name=Task=552)/@0xc99d308 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e7d17b4} m=TO_BACK f=NONE leash=Surface(name=Task=551)/@0xbfb7aa1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 08:48:08.124   780   816 V WindowManagerShell: Playing animation for (#9) android.os.BinderProxy@3903e43@0
+06-06 08:48:08.124   780   816 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@e6a3b8a
+06-06 08:48:08.124   780   816 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@81b95fb
+06-06 08:48:08.124   780   816 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@6938618
+06-06 08:48:08.125   780   816 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@e3b9871
+06-06 08:48:08.125   780   816 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@388656
+06-06 08:48:08.125   780   816 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-06 08:48:08.125   780   816 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d8396d7
+06-06 08:48:08.125   780   816 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@a46ebc4
+06-06 08:48:08.125   780   816 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1a83c87} m=OPEN f=NONE leash=Surface(name=Task=552)/@0xc99d308 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e7d17b4} m=TO_BACK f=NONE leash=Surface(name=Task=551)/@0xbfb7aa1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 08:48:08.125   780   816 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9a04aad, appThread = android.app.IApplicationThread$Stub$Proxy@eceb1e2, debugName = QuickstepLaunchHome }}
+06-06 08:48:08.125   780   816 V WindowManagerShell:  Delegate animation for (#9) to null
+06-06 08:48:08.125   780   816 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@f00c973
+06-06 08:48:08.125   780   816 V WindowManagerShell: start default transition animation, info = {id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1a83c87} m=OPEN f=NONE leash=Surface(name=Task=552)/@0xc99d308 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e7d17b4} m=TO_BACK f=NONE leash=Surface(name=Task=551)/@0xbfb7aa1 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 08:48:08.125   780   816 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@5c21a23 animAttr=0x9 type=OPEN isEntrance=false
+06-06 08:48:08.137  2441  2441 I u.poryadok5.app: Using CollectorTypeCMC GC.
+06-06 08:48:08.139   546   569 V WindowManager: Sent Transition (#9) createdAt=06-06 08:48:08.093 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=552 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=533286 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{baac4ca Task{fa3be5b #552 type=standard A=10164:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{de7863b ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 9 }
+06-06 08:48:08.139   546   569 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-06 08:48:08.139   546   569 V WindowManager:     info={id=9 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-06 08:48:08.139   546   569 V WindowManager:         {WCT{RemoteToken{baac4ca Task{fa3be5b #552 type=standard A=10164:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=552)/@0x411babe sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 08:48:08.139   546   569 V WindowManager:         {WCT{RemoteToken{8f40c3d Task{330887a #551 type=standard A=10166:com.fiftyfive.seconds}}} m=TO_BACK f=NONE leash=Surface(name=Task=551)/@0xe336101 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+06-06 08:48:08.139   546   569 V WindowManager:     ]}
+06-06 08:48:08.141   546   614 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 08:48:08.142   780   816 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@cec0e38 animAttr=0x8 type=OPEN isEntrance=true
+06-06 08:48:08.143   780   816 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@f00c973
+06-06 08:48:08.144   780   816 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#9) android.os.BinderProxy@3903e43@0
+06-06 08:48:08.145   546   569 V WindowManager: Finish Transition (#9): created at 06-06 08:48:08.093 collect-started=0.04ms request-sent=2.655ms started=3.521ms ready=28.64ms sent=29.294ms finished=51.752ms
+06-06 08:48:08.145  1935  1935 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-06 08:48:08.148   780   816 V WindowManagerShell: Track 0 became idle
+06-06 08:48:08.148   780   816 V WindowManagerShell: All active transition animations finished
+06-06 08:48:08.149   546  1007 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 08:48:08.149   546  1007 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 08:48:08.156   546  2445 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-06 08:48:08.156   546  2445 I EGL_emulation: Opening libGLESv2_emulation.so
+06-06 08:48:08.158   546  2445 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-06 08:48:08.158   546  2445 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-06 08:48:08.166   409   478 I adbd    : jdwp connection from 2441
+06-06 08:48:08.168  2441  2441 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 08:48:08.184   780   788 I ndroid.systemui: NativeAlloc concurrent mark compact GC freed 10MB AllocSpace bytes, 70(1512KB) LOS objects, 49% free, 12MB/24MB, paused 226us,5.956ms total 42.092ms
+06-06 08:48:08.185   780   790 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~NPUQYzJHNI_JAvnqm0Ttxw==/com.fiftyfive.seconds-kR9QnqOu7B-7FTvdP0LSzw==/base.apk' with 1 weak references
+06-06 08:48:08.188  2441  2441 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-06 08:48:08.188  2441  2441 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-06 08:48:08.189  2441  2441 W ziparchive: Unable to open '/data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/base.dm': No such file or directory
+06-06 08:48:08.189  2441  2441 W ziparchive: Unable to open '/data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/base.dm': No such file or directory
+06-06 08:48:08.371  2441  2441 D nativeloader: Configuring clns-7 for other apk /data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/lib/arm64:/data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-06 08:48:08.372  2441  2441 D CompatChangeReporter: Compat change id reported: 202956589; UID 10164; state: ENABLED
+06-06 08:48:08.377  2441  2441 V GraphicsEnvironment: Currently set values for:
+06-06 08:48:08.377  2441  2441 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-06 08:48:08.377  2441  2441 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-06 08:48:08.378  2441  2441 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-06 08:48:08.378  2441  2441 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-06 08:48:08.387  2441  2441 D CompatChangeReporter: Compat change id reported: 279646685; UID 10164; state: ENABLED
+06-06 08:48:08.393   546  1177 D CompatChangeReporter: Compat change id reported: 324203798; UID 10164; state: ENABLED
+06-06 08:48:08.395   546   629 D IntervalStats: Unable to parse usage stats packages: [174, 177]
+06-06 08:48:08.395   546   629 D IntervalStats: Unable to parse event packages: [177]
+06-06 08:48:08.396   546   629 D IntervalStats: Unable to parse usage stats packages: [177]
+06-06 08:48:08.398   546   629 D IntervalStats: Unable to parse usage stats packages: [187, 188, 189, 190, 192, 193]
+06-06 08:48:08.413  2441  2441 D CompatChangeReporter: Compat change id reported: 309578419; UID 10164; state: ENABLED
+06-06 08:48:08.436  2441  2441 W HWUI    : Unknown dataspace 0
+06-06 08:48:08.554  2441  2441 W u.poryadok5.app: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+06-06 08:48:08.574  2441  2447 I u.poryadok5.app: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+06-06 08:48:08.601   546   616 D CoreBackPreview: Window{1e87515 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@d684d91, mPriority=0, mIsAnimationCallback=false}
+06-06 08:48:08.637   406   870 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10164 pid=0
+06-06 08:48:08.637   406   870 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10164 => denied (157 us)
+06-06 08:48:08.637   406   870 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10164 pid=0
+06-06 08:48:08.637   406   870 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10164 => denied (188 us)
+06-06 08:48:08.637   406   870 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=0
+06-06 08:48:08.637   406   870 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (200 us)
+06-06 08:48:08.637   406   505 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=2441
+06-06 08:48:08.637   406   505 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (157 us)
+06-06 08:48:08.638  2441  2457 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-06 08:48:08.639  2441  2457 I EGL_emulation: Opening libGLESv2_emulation.so
+06-06 08:48:08.642  2441  2457 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-06 08:48:08.642  2441  2457 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-06 08:48:08.661   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 08:48:08.661  2441  2457 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+06-06 08:48:08.660   162   162 I servicemanager: Caller(pid=2441,uid=10164,sid=u:r:untrusted_app:s0:c164,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 08:48:08.696  2441  2465 D CompatChangeReporter: Compat change id reported: 312399441; UID 10164; state: ENABLED
+06-06 08:48:08.705   546   616 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10164 pid=0
+06-06 08:48:08.705   546   616 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10164 => denied (26 us)
+06-06 08:48:08.705   546   616 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10164 pid=0
+06-06 08:48:08.705   546   616 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10164 => denied (5 us)
+06-06 08:48:08.705   546   616 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=0
+06-06 08:48:08.705   546   616 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (3 us)
+06-06 08:48:08.741   546   569 W ziparchive: Unable to open '/data/app/~~ip01opeCAsLu6xjje5S5ZA==/ru.poryadok5.app-YtilcNI8xEwgrZoaWO_1Sg==/base.dm': No such file or directory
+06-06 08:48:08.741   546   569 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +649ms
+06-06 08:48:08.773   780   865 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1f38a8f
+06-06 08:48:08.773   546   614 D CoreBackPreview: Window{ab48a27 u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-06 08:48:08.773   546  1177 W InputManager-JNI: Input channel object 'ab48a27 Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-06 08:48:08.840   546   660 I ImeTracker: ru.poryadok5.app:32b5f092: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-06 08:48:08.840   546   660 I ImeTracker: ru.poryadok5.app:32b5f092: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 08:48:10.172  2475  2475 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 08:48:10.174  2475  2475 I AndroidRuntime: Using default boot image
+06-06 08:48:10.174  2475  2475 I AndroidRuntime: Leaving lock profiling enabled
+06-06 08:48:10.175  2475  2475 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 08:48:10.175  2475  2475 I app_process: Using CollectorTypeCMC GC.
+06-06 08:48:10.206  2475  2475 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 08:48:10.209  2475  2475 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:10.209  2475  2475 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 08:48:10.209  2475  2475 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 08:48:10.210  2475  2475 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:10.210  2475  2475 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:10.211  2475  2475 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 08:48:10.212  2475  2475 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 08:48:10.218  2475  2475 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 08:48:10.219  2475  2475 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 08:48:10.220  2475  2475 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 08:48:10.220  2475  2475 I UiAutomation: Initialized for user 0 on display 0
+06-06 08:48:10.220  2475  2475 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 08:48:10.221   546  1177 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 08:48:10.221   546  1177 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 08:48:10.221   546  1177 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:10.222   546   546 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 08:48:10.222  2475  2486 V UiAutomation: Init UiAutomation@7440039[id=13, displayId=0, flags=0]
+06-06 08:48:10.223   546  1177 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:10.224   981  1041 D AccessibilitySourceService: enabled a11y services count 0
+06-06 08:48:10.225   981  1041 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 08:48:10.225   546   616 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 08:48:11.110   546  1355 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-06 08:48:11.263  2441  2457 D EGL_emulation: app_time_stats: avg=859.31ms min=84.46ms max=2406.87ms count=3
+06-06 08:48:11.299  2475  2475 W AccessibilityNodeInfoDumper: Fetch time: 65ms
+06-06 08:48:11.301   546   616 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:11.301   546   616 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 08:48:11.301   546   546 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 08:48:11.302  2475  2475 D AndroidRuntime: Shutting down VM
+06-06 08:48:12.174  2491  2491 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 08:48:12.175  2491  2491 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 08:48:12.181   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 08:48:12.181  2491  2492 I Gralloc4: mapper 4.x is not supported
+06-06 08:48:12.181   162   162 I servicemanager: Caller(pid=2491,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 08:48:12.368  2441  2457 D EGL_emulation: app_time_stats: avg=1104.79ms min=1104.79ms max=1104.79ms count=1
+06-06 08:48:13.395  2501  2501 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 08:48:13.397  2501  2501 I AndroidRuntime: Using default boot image
+06-06 08:48:13.397  2501  2501 I AndroidRuntime: Leaving lock profiling enabled
+06-06 08:48:13.398  2501  2501 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 08:48:13.398  2501  2501 I app_process: Using CollectorTypeCMC GC.
+06-06 08:48:13.423  2501  2501 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 08:48:13.428  2501  2501 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:13.428  2501  2501 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 08:48:13.428  2501  2501 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 08:48:13.428  2501  2501 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:13.429  2501  2501 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:13.430  2501  2501 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 08:48:13.430  2501  2501 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 08:48:13.437  2501  2501 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 08:48:13.437  2501  2501 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 08:48:13.439  2501  2501 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 08:48:13.439  2501  2501 I UiAutomation: Initialized for user 0 on display 0
+06-06 08:48:13.439  2501  2501 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 08:48:13.440   546  1007 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 08:48:13.440   546  1007 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 08:48:13.440   546  1007 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:13.441  2501  2512 V UiAutomation: Init UiAutomation@4290554[id=14, displayId=0, flags=0]
+06-06 08:48:13.441   546   546 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 08:48:13.442   546   842 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:13.453   981  1041 D AccessibilitySourceService: enabled a11y services count 0
+06-06 08:48:13.453   981  1041 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 08:48:13.454   546   840 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 08:48:13.905  2441  2513 D ProfileInstaller: Installing profile for ru.poryadok5.app
+06-06 08:48:14.482  2501  2501 W AccessibilityNodeInfoDumper: Fetch time: 30ms
+06-06 08:48:14.484   546   840 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:14.484   546   840 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 08:48:14.484   546   546 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 08:48:14.485  2501  2501 D AndroidRuntime: Shutting down VM
+06-06 08:48:15.344  2517  2517 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 08:48:15.344  2517  2517 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 08:48:15.349   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 08:48:15.350   162   162 I servicemanager: Caller(pid=2517,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 08:48:15.350  2517  2518 I Gralloc4: mapper 4.x is not supported
+06-06 08:48:15.522  2441  2441 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-06 08:48:15.522  2441  2441 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-06 08:48:15.557  2441  2457 D EGL_emulation: app_time_stats: avg=797.02ms min=17.96ms max=3060.21ms count=4
+06-06 08:48:16.588  2441  2457 D EGL_emulation: app_time_stats: avg=1031.06ms min=1031.06ms max=1031.06ms count=1
+06-06 08:48:17.572  2527  2527 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 08:48:17.574  2527  2527 I AndroidRuntime: Using default boot image
+06-06 08:48:17.574  2527  2527 I AndroidRuntime: Leaving lock profiling enabled
+06-06 08:48:17.575  2527  2527 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 08:48:17.575  2527  2527 I app_process: Using CollectorTypeCMC GC.
+06-06 08:48:17.604  2441  2457 D EGL_emulation: app_time_stats: avg=338.65ms min=18.44ms max=975.76ms count=3
+06-06 08:48:17.605  2527  2527 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 08:48:17.610  2527  2527 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:17.610  2527  2527 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 08:48:17.610  2527  2527 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 08:48:17.610  2527  2527 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:17.611  2527  2527 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 08:48:17.613  2527  2527 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 08:48:17.614  2527  2527 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 08:48:17.623  2527  2527 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 08:48:17.623  2527  2527 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 08:48:17.624  2527  2527 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 08:48:17.624  2527  2527 I UiAutomation: Initialized for user 0 on display 0
+06-06 08:48:17.624  2527  2527 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 08:48:17.625   546   614 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 08:48:17.625   546   614 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 08:48:17.625   546   614 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:17.627  2527  2538 V UiAutomation: Init UiAutomation@55a6178[id=15, displayId=0, flags=0]
+06-06 08:48:17.627   546   546 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 08:48:17.628   546   616 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:17.632   981  1041 D AccessibilitySourceService: enabled a11y services count 0
+06-06 08:48:17.632   981  1041 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 08:48:17.633   546   896 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 08:48:17.895   546   762 D OomAdjuster: Not killing cached processes
+06-06 08:48:17.901   981   988 W ssioncontroller: ApkAssets: Deleting an ApkAssets object '<empty> and /system/framework/framework-res.apk' with 1 weak references
+06-06 08:48:17.911   357   422 I netd    : tetherGetStats() -> {[]} <0.37ms>
+06-06 08:48:17.935   546   641 D ActivityManager: freezing 1888 com.android.documentsui
+06-06 08:48:18.373   187  2401 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+06-06 08:48:18.623  2441  2457 D EGL_emulation: app_time_stats: avg=339.54ms min=13.91ms max=983.07ms count=3
+06-06 08:48:18.643  2441  2441 D CompatChangeReporter: Compat change id reported: 270674727; UID 10164; state: ENABLED
+06-06 08:48:18.659  2527  2527 W AccessibilityNodeInfoDumper: Fetch time: 28ms
+06-06 08:48:18.661   546  1007 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 08:48:18.661   546  1007 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 08:48:18.661   546   546 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 08:48:18.661   546   546 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 08:48:18.661  2527  2527 D AndroidRuntime: Shutting down VM
+06-06 08:48:18.663   546   546 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 08:48:18.663   546   546 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 08:48:19.520  2542  2542 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 08:48:19.520  2542  2542 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 08:48:19.525   164   164 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 08:48:19.526  2542  2543 I Gralloc4: mapper 4.x is not supported
+06-06 08:48:19.525   162   162 I servicemanager: Caller(pid=2542,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 08:48:19.637  2441  2457 D EGL_emulation: app_time_stats: avg=332.93ms min=5.78ms max=972.85ms count=3
+06-06 08:48:19.674   172   172 I logd    : logdr: UID=2000 GID=2000 PID=2547 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns

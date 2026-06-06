@@ -1,0 +1,3 @@
+package:com.fiftyfive.seconds.debug.test
+package:com.fiftyfive.seconds.debug
+package:ru.poryadok5.app

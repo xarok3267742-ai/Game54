@@ -1,0 +1,4 @@
+qa/emulator-android16-settings-privacy-unframed-qa-2026-06-06/01-onboarding.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 147490
+qa/emulator-android16-settings-privacy-unframed-qa-2026-06-06/02-home.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 158453
+qa/emulator-android16-settings-privacy-unframed-qa-2026-06-06/03-settings-privacy-unframed.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 170288
+screenshots/play-store/06-settings.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 170288

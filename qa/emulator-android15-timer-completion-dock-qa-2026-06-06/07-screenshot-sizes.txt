@@ -1,0 +1,12 @@
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-timer-completion-dock-qa-2026-06-06/01-onboarding.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-timer-completion-dock-qa-2026-06-06/02-home.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-timer-completion-dock-qa-2026-06-06/03-timer.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/03-timer.png
+  pixelWidth: 1080
+  pixelHeight: 2400

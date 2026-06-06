@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{a942088 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+  mFocusedApp=ActivityRecord{92a0461 u0 ru.poryadok5.app/.MainActivity t550}

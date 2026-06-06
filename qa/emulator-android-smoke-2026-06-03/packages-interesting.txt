@@ -1,0 +1,2 @@
+package:com.fiftyfive.seconds
+package:ru.poryadok5.app

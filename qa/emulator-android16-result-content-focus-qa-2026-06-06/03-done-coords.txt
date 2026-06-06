@@ -1,0 +1,1 @@
+Готово center from 03-timer.xml clickable bounds [53,2168][1027,2305]: 540 2236

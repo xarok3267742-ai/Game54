@@ -1,0 +1,5 @@
+01-onboarding.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 150270
+02-home.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 161301
+03-details-top.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 167971
+03b-details-lower.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 156145
+04-timer.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 124817

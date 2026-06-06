@@ -1,0 +1,120 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        6243508 ru.poryadok5.app/.MainActivity filter 1c334a1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        faca6c6 ru.poryadok5.app/androidx.profileinstaller.ProfileInstallReceiver filter 53d79dd
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        faca6c6 ru.poryadok5.app/androidx.profileinstaller.ProfileInstallReceiver filter a778687
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        faca6c6 ru.poryadok5.app/androidx.profileinstaller.ProfileInstallReceiver filter 34b99b4
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        faca6c6 ru.poryadok5.app/androidx.profileinstaller.ProfileInstallReceiver filter 43c6952
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Domain verification status:
+
+Permissions:
+  Permission [ru.poryadok5.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (a0f0002):
+    sourcePackage=ru.poryadok5.app
+    uid=10157 gids=[] type=0 prot=signature
+    perm=PermissionInfo{defcd13 ru.poryadok5.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Registered ContentProviders:
+  ru.poryadok5.app/androidx.startup.InitializationProvider:
+    Provider{f484b50 ru.poryadok5.app/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [ru.poryadok5.app.androidx-startup]:
+    Provider{f484b50 ru.poryadok5.app/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{89aa149 ru.poryadok5.app}
+
+Key Set Manager:
+  [ru.poryadok5.app]
+      Signing KeySets: 20
+
+Packages:
+  Package [ru.poryadok5.app] (9d6af7b):
+    appId=10157
+    pkg=Package{e711a4e ru.poryadok5.app}
+    codePath=/data/app/~~_Vrvr97FjzfBkLfiOnyGig==/ru.poryadok5.app-t01rm2nY-rkTcCHSuILmYA==
+    resourcePath=/data/app/~~_Vrvr97FjzfBkLfiOnyGig==/ru.poryadok5.app-t01rm2nY-rkTcCHSuILmYA==
+    legacyNativeLibraryDir=/data/app/~~_Vrvr97FjzfBkLfiOnyGig==/ru.poryadok5.app-t01rm2nY-rkTcCHSuILmYA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=26 targetSdk=35
+    minExtensionVersions=[]
+    versionName=1.0.0-rc1
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesLibraryFiles:
+      /system_ext/framework/androidx.window.extensions.jar
+      /system_ext/framework/androidx.window.sidecar.jar
+    timeStamp=2026-05-27 16:06:37
+    lastUpdateTime=2026-05-27 16:06:37
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{e346fa2 version:2, signatures:[31675c1], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    apexModuleName=null
+    declared permissions:
+      ru.poryadok5.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+    requested permissions:
+      ru.poryadok5.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      ru.poryadok5.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+    User 0: ceDataInode=352427 deDataInode=98422 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/ru.poryadok5.app
+      firstInstallTime=2026-05-27 13:00:12
+      uninstallReason=0
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-Fuml.frro
+        /data/resource-cache/com.android.systemui-accent-Sxs0.frro
+        /data/resource-cache/com.android.systemui-dynamic-MLPI.frro
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.android.settings.intelligence:
+      ru.poryadok5.app
+  queryable via interaction:
+    User 0:
+      [com.android.DeviceAsWebcam,com.android.inputdevices,com.android.location.fused,com.android.localtransport,android,com.android.providers.settings,com.android.dynsystem,com.android.keychain,com.android.server.telecom,com.android.emulator.multidisplay,com.android.settings]:
+        ru.poryadok5.app
+      com.android.inputmethod.latin:
+        ru.poryadok5.app
+  queryable via uses-library:
+
+Dexopt state:

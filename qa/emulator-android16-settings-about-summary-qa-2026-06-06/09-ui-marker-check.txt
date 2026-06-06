@@ -1,0 +1,13 @@
+PASS markers for Android 16 Settings about summary
+Present: Настройки
+Present: Приватность
+Present: О приложении
+Present: Порядок 5
+Present: Версия
+Present: 1.0.0-rc1
+Present: Каталог
+Present: 80 задач
+Present: Данные
+Present: на устройстве
+Absent: Локальный каталог
+Package: ru.poryadok5.app

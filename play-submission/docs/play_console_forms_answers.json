@@ -1,0 +1,77 @@
+{
+  "lastReviewed": "2026-05-27",
+  "packageName": "ru.poryadok5.app",
+  "appCategory": "app",
+  "defaultLanguage": "Russian",
+  "freeOrPaid": "free",
+  "appAccess": {
+    "restrictedFunctions": false,
+    "loginRequired": false,
+    "accountRequired": false,
+    "reviewInstructions": "Install and open the app. All functionality is available offline without credentials."
+  },
+  "ads": {
+    "containsAds": false,
+    "adSdks": []
+  },
+  "dataSafety": {
+    "collectsUserData": false,
+    "sharesUserData": false,
+    "privacyPolicyRequired": true,
+    "privacyPolicySource": "docs/privacy_policy_ru.html",
+    "localOnlyData": [
+      "onboarding completion flag",
+      "preferred area",
+      "haptics setting",
+      "total completed task count",
+      "streak days",
+      "last completion date",
+      "completed task ids"
+    ],
+    "dataDeletion": "User can reset local progress in app settings or uninstall the app.",
+    "securityPractices": [
+      "no account",
+      "no network data transfer",
+      "local-only settings and progress"
+    ]
+  },
+  "targetAudienceAndContent": {
+    "targetAgeGroups": [
+      "13+"
+    ],
+    "designedForChildren": false,
+    "appealsPrimarilyToChildren": false,
+    "childrenDirected": false,
+    "userGeneratedContent": false,
+    "purchases": false,
+    "ads": false,
+    "sensitiveCategories": []
+  },
+  "contentRating": {
+    "violence": false,
+    "fearHorror": false,
+    "sexualContent": false,
+    "controlledSubstances": false,
+    "gambling": false,
+    "userGeneratedContent": false,
+    "onlineInteraction": false,
+    "locationSharing": false,
+    "purchases": false,
+    "ads": false,
+    "expectedOutcome": "broad audience / low maturity, subject to official questionnaire result"
+  },
+  "manualConfirmationsRequired": [
+    "Publish privacy policy at a stable HTTPS URL",
+    "Replace contact line with real developer support email",
+    "Approve feature graphic in Play Console preview",
+    "Complete Data Safety form",
+    "Complete Target Audience and Content form",
+    "Complete Content Rating questionnaire",
+    "Verify internal testing install flow from Play-distributed build"
+  ],
+  "officialSources": [
+    "https://support.google.com/googleplay/android-developer/answer/10787469",
+    "https://support.google.com/googleplay/android-developer/answer/9867159",
+    "https://support.google.com/googleplay/android-developer/answer/9898843"
+  ]
+}

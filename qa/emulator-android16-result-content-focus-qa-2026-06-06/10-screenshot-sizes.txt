@@ -1,0 +1,5 @@
+qa/emulator-android16-result-content-focus-qa-2026-06-06/01-onboarding.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 148418
+qa/emulator-android16-result-content-focus-qa-2026-06-06/02-home.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 159511
+qa/emulator-android16-result-content-focus-qa-2026-06-06/03-timer.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 122341
+qa/emulator-android16-result-content-focus-qa-2026-06-06/04-result-content-focus.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 151424
+screenshots/play-store/04-result.png: pixelWidth: 1080, pixelHeight: 2400, bytes: 151424

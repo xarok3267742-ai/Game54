@@ -1,0 +1,4 @@
+PASS Task details unframed briefing markers
+PASS Details lower keeps start dock and outcome preview
+PASS Details start dock opens Timer
+PASS app-specific fatal/ANR matches are empty

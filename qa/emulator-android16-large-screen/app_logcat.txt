@@ -1,0 +1,39 @@
+--------- beginning of main
+05-27 15:01:37.634  3877  3877 I vliev.poryadok5: Late-enabling -Xcheck:jni
+05-27 15:01:37.712  3877  3877 I vliev.poryadok5: Using CollectorTypeCMC GC.
+05-27 15:01:37.913  3877  3877 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+05-27 15:01:38.414  3877  3877 D nativeloader: Configuring clns-7 for other apk /data/app/~~89dfAFtNQ9kUXFhViEBkeg==/ru.poryadok5.app-xH1MtVm8koXZiCB4D0d9GA==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~89dfAFtNQ9kUXFhViEBkeg==/ru.poryadok5.app-xH1MtVm8koXZiCB4D0d9GA==/lib/arm64:/data/app/~~89dfAFtNQ9kUXFhViEBkeg==/ru.poryadok5.app-xH1MtVm8koXZiCB4D0d9GA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+05-27 15:01:38.416  3877  3877 D CompatChangeReporter: Compat change id reported: 202956589; UID 10216; state: ENABLED
+05-27 15:01:38.421  3877  3877 I vliev.poryadok5: AssetManager2(0xb4000073aa807c58) locale list changing from [] to [en-US]
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment: Currently set values for:
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment: ru.poryadok5.app is not listed in per-application setting
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment: ANGLE allowlist from config: 
+05-27 15:01:38.495  3877  3877 V GraphicsEnvironment: ru.poryadok5.app is not listed in ANGLE allowlist or settings, returning default
+05-27 15:01:38.496  3877  3877 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+05-27 15:01:38.521  3877  3877 D CompatChangeReporter: Compat change id reported: 279646685; UID 10216; state: ENABLED
+05-27 15:01:38.543  3877  3877 I vliev.poryadok5: AssetManager2(0xb4000073aa810c18) locale list changing from [] to [en-US]
+05-27 15:01:38.630  3877  3877 D CompatChangeReporter: Compat change id reported: 309578419; UID 10216; state: ENABLED
+05-27 15:01:38.632  3877  3877 D DesktopModeFlags: Toggle override initialized to: OVERRIDE_UNSET
+05-27 15:01:38.688  3877  3877 D CompatChangeReporter: Compat change id reported: 352594277; UID 10216; state: ENABLED
+05-27 15:01:38.721  3877  3877 D CompatChangeReporter: Compat change id reported: 349153669; UID 10216; state: ENABLED
+05-27 15:01:38.724  3877  3877 W HWUI    : Unknown dataspace 0
+05-27 15:01:39.539  3877  3901 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+05-27 15:01:39.539  3877  3901 I EGL_emulation: Opening libGLESv2_emulation.so
+05-27 15:01:39.592  3877  3901 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+05-27 15:01:39.592  3877  3901 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+05-27 15:01:39.863  3877  3894 I HWUI    : Davey! duration=1097ms; Flags=1, FrameTimelineVsyncId=7598, IntendedVsync=69285114690, Vsync=69318448022, InputEventId=0, HandleInputStart=69332362491, AnimationStart=69332363533, PerformTraversalsStart=69332364408, DrawStart=70253567450, FrameDeadline=69301781356, FrameStartTime=69332345908, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=70271573825, SyncStart=70284133866, IssueDrawCommandsStart=70284484950, SwapBuffers=70323695991, FrameCompleted=70395307116, DequeueBufferDuration=3167, QueueBufferDuration=64648834, GpuCompleted=70395265533, SwapBuffersCompleted=70395307116, DisplayPresentTime=0, CommandSubmissionCompleted=70323695991, 
+05-27 15:01:39.938  3877  3877 I Choreographer: Skipped 61 frames!  The application may be doing too much work on its main thread.
+05-27 15:01:40.024  3877  3877 D InsetsController: hide(ime(), fromIme=false)
+05-27 15:01:40.024  3877  3877 I ImeTracker: ru.poryadok5.app:bc50e679: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+05-27 15:01:40.033  3877  3928 W vliev.poryadok5: Verification of void kotlin.io.FilesKt__FileReadWriteKt.appendBytes(java.io.File, byte[]) took 132.360ms (294.65 bytecodes/s) (0B arena alloc)
+05-27 15:01:40.047  3877  3928 D CompatChangeReporter: Compat change id reported: 312399441; UID 10216; state: ENABLED
+05-27 15:01:40.207  3877  3888 I HWUI    : Davey! duration=1076ms; Flags=0, FrameTimelineVsyncId=7622, IntendedVsync=69468448016, Vsync=70485114642, InputEventId=0, HandleInputStart=70489848366, AnimationStart=70489849533, PerformTraversalsStart=70505489366, DrawStart=70505551241, FrameDeadline=70418447978, FrameStartTime=70489743116, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=70505862658, SyncStart=70505929200, IssueDrawCommandsStart=70505939575, SwapBuffers=70506501116, FrameCompleted=70545203783, DequeueBufferDuration=2875, QueueBufferDuration=37335750, GpuCompleted=70545171200, SwapBuffersCompleted=70545203783, DisplayPresentTime=0, CommandSubmissionCompleted=70506501116, 
+05-27 15:01:40.771  3877  3883 I vliev.poryadok5: Compiler allocated 5175KB to compile void android.view.ViewRootImpl.performTraversals()
+05-27 15:01:44.240  3877  3986 D ProfileInstaller: Installing profile for ru.poryadok5.app
+05-27 15:01:49.085  3877  3877 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-27 15:01:49.085  3877  3877 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-27 15:01:51.240  3877  3877 D CompatChangeReporter: Compat change id reported: 270674727; UID 10216; state: ENABLED
+05-27 15:01:58.896  3877  3877 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+05-27 15:01:58.896  3877  3877 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.

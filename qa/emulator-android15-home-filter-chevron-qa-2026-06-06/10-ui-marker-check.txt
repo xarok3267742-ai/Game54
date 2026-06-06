@@ -1,0 +1,3 @@
+PASS Home filter chevron disclosure markers
+PASS collapsed Home hides lower filter controls
+PASS app-specific fatal/ANR matches are empty

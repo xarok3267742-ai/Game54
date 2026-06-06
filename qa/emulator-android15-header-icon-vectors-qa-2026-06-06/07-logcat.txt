@@ -1,0 +1,577 @@
+--------- beginning of main
+06-06 00:54:28.595   908   908 D CarrierSvcBindHelper: onHandleForceStop: [ru.poryadok5.app]
+06-06 00:54:28.595   908   908 D CarrierSvcBindHelper: No carrier app for: 0
+06-06 00:54:28.617  1890  1890 D nativeloader: Configuring clns-shared-7 for other apk /system/priv-app/DocumentsUI/DocumentsUI.apk. target_sdk_version=35, uses_libraries=, library_path=/system/priv-app/DocumentsUI/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.documentsui:/system/priv-app/DocumentsUI:/system/lib64:/system_ext/lib64
+06-06 00:54:28.620  1890  1890 D CompatChangeReporter: Compat change id reported: 202956589; UID 10069; state: ENABLED
+06-06 00:54:28.623  1890  1890 V GraphicsEnvironment: Currently set values for:
+06-06 00:54:28.623  1890  1890 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-06 00:54:28.623  1890  1890 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-06 00:54:28.623  1890  1890 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-06 00:54:28.623  1890  1890 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-06 00:54:28.637  1890  1890 E StrictMode: Tried to access the API:LayoutInflater which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f The API:LayoutInflater needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-06 00:54:28.637  1890  1890 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:LayoutInflater which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.view.LayoutInflater.<init>(LayoutInflater.java:241)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.<init>(PhoneLayoutInflater.java:44)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.SystemServiceRegistry$32.createService(SystemServiceRegistry.java:597)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.SystemServiceRegistry$32.createService(SystemServiceRegistry.java:594)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:2231)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1812)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2241)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:936)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.view.LayoutInflater.from(LayoutInflater.java:267)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-06 00:54:28.637  1890  1890 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-06 00:54:28.638  1890  1890 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-06 00:54:28.638  1890  1890 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.ViewGroup.<init>(ViewGroup.java:703)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:543)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-06 00:54:28.638  1890  1890 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-06 00:54:28.639  1890  1890 D CompatChangeReporter: Compat change id reported: 279646685; UID 10069; state: ENABLED
+--------- beginning of system
+06-06 00:54:28.639   556   625 D ActivityManager: sync unfroze 1754 com.android.externalstorage for 7
+06-06 00:54:28.640  1890  1890 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-06 00:54:28.640  1890  1890 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.ViewGroup.<init>(ViewGroup.java:703)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1011)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-06 00:54:28.640  1890  1890 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-06 00:54:28.641  1890  1890 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-06 00:54:28.641  1890  1890 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:196)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:191)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:187)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DropBadgeView.<init>(DropBadgeView.java:40)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:894)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1118)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1007)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1014)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-06 00:54:28.641  1890  1890 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-06 00:54:28.642   556   580 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.644  1890  1890 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-06 00:54:28.644  1890  1890 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@cfccf4f
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1173)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1167)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1163)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1011)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1014)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-06 00:54:28.644  1890  1890 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-06 00:54:28.644  1890  1890 D CompatChangeReporter: Compat change id reported: 63938206; UID 10069; state: ENABLED
+06-06 00:54:28.644   556   580 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.644   556   580 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.645  1890  1890 D DocumentsApplication: OverlayManager.setEnabled() result: true
+06-06 00:54:28.645   556   580 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.646   556   580 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.646  1754  1754 D ActivityThread: Package [ru.poryadok5.app] reported as REPLACED, but missing application info. Assuming REMOVED.
+06-06 00:54:28.679   556  1357 W ActivityTaskManager: takeTaskSnapshot: taskId=546 not found or not visible
+06-06 00:54:28.683   556  1918 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-06 00:54:28.683   556  1918 I EGL_emulation: Opening libGLESv2_emulation.so
+06-06 00:54:28.685   556  1918 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-06 00:54:28.685   556  1918 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-06 00:54:28.687   556   746 D ShortcutService: Saving package item com.android.launcher3 to /data/system_ce/0/shortcut_service/launchers/com.android.launcher30.xml
+06-06 00:54:28.690   556  1357 W ActivityTaskManager: takeTaskSnapshot: taskId=566 not found or not visible
+06-06 00:54:28.769   556  1357 W ActivityTaskManager: callingPackage for (uid=2000, pid=1938) has no WPC
+06-06 00:54:28.769   556  1357 D CompatChangeReporter: Compat change id reported: 151861875; UID 10164; state: ENABLED
+06-06 00:54:28.769   556  1357 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+06-06 00:54:28.770   556  1357 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10164, packageName = null, attributionTag = null, token = android.os.Binder@c51c107, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 00:54:28.770   556  1357 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-06 00:54:28.770   556  1357 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-06 00:54:28.772   556  1357 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-06 00:54:28.773   556  1357 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-06 00:54:28.773   790   836 V WindowManagerShell: Transition requested (#4): android.os.BinderProxy@d99cfd7 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=568 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=104288 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@f1b30c4} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{307abad ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+06-06 00:54:28.773   556   581 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10164, packageName = null, attributionTag = null, token = android.os.Binder@c51c107, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 00:54:28.773  1211  1211 W SplitSelectStateCtor: Missing session instanceIds
+06-06 00:54:28.773  1211  1211 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+06-06 00:54:28.774   790   836 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=294
+06-06 00:54:28.774  1211  1211 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=568, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-06 00:54:28.775   556   625 D CompatChangeReporter: Compat change id reported: 309578419; UID 10164; state: ENABLED
+06-06 00:54:28.778   366   366 D Zygote  : Forked child process 1941
+06-06 00:54:28.778   556   589 I ActivityManager: Start proc 1941:ru.poryadok5.app/u0a164 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 00:54:28.779   790   950 D SplashScreenView: Build android.window.SplashScreenView{70eab97 V.E...... ......ID 0,0-0,0}
+06-06 00:54:28.779   790   950 D SplashScreenView: Icon: view: android.widget.ImageView{7514184 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@fa74d6d size: 420
+06-06 00:54:28.779   790   950 D SplashScreenView: Branding: view: android.view.View{3215da2 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+06-06 00:54:28.783   415   415 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-06 00:54:28.784   556   826 D CoreBackPreview: Window{e02f47d u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bafd040, mPriority=0, mIsAnimationCallback=false}
+06-06 00:54:28.799  1941  1941 I u.poryadok5.app: Late-enabling -Xcheck:jni
+06-06 00:54:28.810   790  1228 V WindowManagerShell: onTransitionReady(transaction=2388001816836)
+06-06 00:54:28.810   790   836 V WindowManagerShell: onTransitionReady (#4) android.os.BinderProxy@d99cfd7: {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@be410c6} m=OPEN f=NONE leash=Surface(name=Task=568)/@0xabcecab sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c5ba887} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9cf0f08 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 00:54:28.811   790   836 V WindowManagerShell: Playing animation for (#4) android.os.BinderProxy@d99cfd7@0
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@926a52c
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@7cfebf5
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1ea4d8a
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@71f3ffb
+06-06 00:54:28.811   556   578 V WindowManager: Sent Transition (#4) createdAt=06-06 00:54:28.770 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=568 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=104288 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{6e66aca Task{af51c5 #568 type=standard A=10164:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{6e1343b ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+06-06 00:54:28.811   556   578 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-06 00:54:28.811   556   578 V WindowManager:     info={id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-06 00:54:28.811   556   578 V WindowManager:         {WCT{RemoteToken{6e66aca Task{af51c5 #568 type=standard A=10164:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=568)/@0xabf00be sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 00:54:28.811   556   578 V WindowManager:         {WCT{RemoteToken{c6f6758 Task{80020d0 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xccf5b79 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+06-06 00:54:28.811   556   578 V WindowManager:     ]}
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@4eee818
+06-06 00:54:28.811   790   836 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@f005271
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@a7b856
+06-06 00:54:28.811   790   836 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@be410c6} m=OPEN f=NONE leash=Surface(name=Task=568)/@0xabcecab sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c5ba887} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9cf0f08 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 00:54:28.811   790   836 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@a17e0d7, appThread = android.app.IApplicationThread$Stub$Proxy@ff66dc4, debugName = QuickstepLaunchHome }}
+06-06 00:54:28.811   790   836 V WindowManagerShell:  Delegate animation for (#4) to null
+06-06 00:54:28.811   790   836 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@af6a4ad
+06-06 00:54:28.811   790   836 V WindowManagerShell: start default transition animation, info = {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@be410c6} m=OPEN f=NONE leash=Surface(name=Task=568)/@0xabcecab sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c5ba887} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9cf0f08 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 00:54:28.812   790   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c436bdd animAttr=0x13 type=OPEN isEntrance=false
+06-06 00:54:28.812   790   836 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@68fe8d9 animAttr=0x12 type=OPEN isEntrance=true
+06-06 00:54:28.812   790   836 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@af6a4ad
+06-06 00:54:28.813  1941  1941 I u.poryadok5.app: Using CollectorTypeCMC GC.
+06-06 00:54:28.813   556   826 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 00:54:28.817   790   836 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4) android.os.BinderProxy@d99cfd7@0
+06-06 00:54:28.821   556   578 V WindowManager: Finish Transition (#4): created at 06-06 00:54:28.770 collect-started=0.023ms request-sent=2.724ms started=3.057ms ready=35.665ms sent=38.437ms finished=50.769ms
+06-06 00:54:28.824   556   570 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-06 00:54:28.827   790   836 V WindowManagerShell: Track 0 became idle
+06-06 00:54:28.827   790   836 V WindowManagerShell: All active transition animations finished
+06-06 00:54:28.827   556   571 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIME/LatinIME.apk' with 1 weak references
+06-06 00:54:28.827   556   571 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 1 weak references
+06-06 00:54:28.827   556   571 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 1 weak references
+06-06 00:54:28.831   423   486 I adbd    : jdwp connection from 1941
+06-06 00:54:28.833  1211  1386 D EGL_emulation: app_time_stats: avg=30585.39ms min=53.82ms max=91526.16ms count=3
+06-06 00:54:28.834  1941  1941 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:28.837  1211  1211 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+06-06 00:54:28.845  1941  1941 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-06 00:54:28.845  1941  1941 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-06 00:54:28.845  1941  1941 W ziparchive: Unable to open '/data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/base.dm': No such file or directory
+06-06 00:54:28.845  1941  1941 W ziparchive: Unable to open '/data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/base.dm': No such file or directory
+06-06 00:54:28.847  1211  1386 D EGL_emulation: app_time_stats: avg=30535.27ms min=13.53ms max=91487.48ms count=3
+06-06 00:54:28.850   556   580 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.850   556   580 I DropBoxManagerService: add tag=system_server_strictmode isTagEnabled=true flags=0x2
+06-06 00:54:28.864   790   996 D EGL_emulation: app_time_stats: avg=15554.52ms min=15554.52ms max=15554.52ms count=1
+06-06 00:54:28.866   556  1357 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 00:54:28.869   556  1357 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 00:54:28.879   556   826 W ActivityTaskManager: takeTaskSnapshot: taskId=566 not found or not visible
+06-06 00:54:29.021  1941  1941 D nativeloader: Configuring clns-7 for other apk /data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/lib/arm64:/data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-06 00:54:29.022  1941  1941 D CompatChangeReporter: Compat change id reported: 202956589; UID 10164; state: ENABLED
+06-06 00:54:29.027  1941  1941 V GraphicsEnvironment: Currently set values for:
+06-06 00:54:29.027  1941  1941 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-06 00:54:29.027  1941  1941 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-06 00:54:29.027  1941  1941 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-06 00:54:29.027  1941  1941 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-06 00:54:29.036  1941  1941 D CompatChangeReporter: Compat change id reported: 279646685; UID 10164; state: ENABLED
+06-06 00:54:29.040   556   826 D CompatChangeReporter: Compat change id reported: 324203798; UID 10164; state: ENABLED
+06-06 00:54:29.059  1941  1941 D CompatChangeReporter: Compat change id reported: 309578419; UID 10164; state: ENABLED
+06-06 00:54:29.082  1941  1941 W HWUI    : Unknown dataspace 0
+06-06 00:54:29.178  1941  1941 W u.poryadok5.app: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+06-06 00:54:29.208  1941  1948 I u.poryadok5.app: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+06-06 00:54:29.225   556  1357 D CoreBackPreview: Window{e8c0a59 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@2e9f315, mPriority=0, mIsAnimationCallback=false}
+06-06 00:54:29.252   415   511 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10164 pid=1941
+06-06 00:54:29.252   415   512 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10164 pid=0
+06-06 00:54:29.252   415   511 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10164 => denied (139 us)
+06-06 00:54:29.252   415   512 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10164 => denied (250 us)
+06-06 00:54:29.252   415   511 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10164 pid=1941
+06-06 00:54:29.252   415   511 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10164 => denied (180 us)
+06-06 00:54:29.253   415   511 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=1941
+06-06 00:54:29.253   415   512 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10164 pid=0
+06-06 00:54:29.253   415   512 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10164 => denied (323 us)
+06-06 00:54:29.253   415   511 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (195 us)
+06-06 00:54:29.253   415   512 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=0
+06-06 00:54:29.253   415   512 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (186 us)
+06-06 00:54:29.253  1941  1957 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-06 00:54:29.253  1941  1957 I EGL_emulation: Opening libGLESv2_emulation.so
+06-06 00:54:29.257  1941  1957 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-06 00:54:29.257  1941  1957 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-06 00:54:29.266   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:29.266  1941  1957 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+06-06 00:54:29.269   159   159 I servicemanager: Caller(pid=1941,uid=10164,sid=u:r:untrusted_app:s0:c164,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 00:54:29.301   556   826 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10164 pid=0
+06-06 00:54:29.304   556   826 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10164 => denied (2759 us)
+06-06 00:54:29.304   556   826 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10164 pid=0
+06-06 00:54:29.304   556   826 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10164 => denied (27 us)
+06-06 00:54:29.304   556   826 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10164 pid=0
+06-06 00:54:29.304   556   826 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10164 => denied (6 us)
+06-06 00:54:29.306   556   578 W ziparchive: Unable to open '/data/app/~~iM4AdCwd_gR0rM_zuyVDgw==/ru.poryadok5.app-E0iocp-bCWAhZmaT52viSQ==/base.dm': No such file or directory
+06-06 00:54:29.307   556   578 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +537ms
+06-06 00:54:29.321  1941  1966 D CompatChangeReporter: Compat change id reported: 312399441; UID 10164; state: ENABLED
+06-06 00:54:29.354  1211  1211 D BaseDepthController: setSurface:
+06-06 00:54:29.354  1211  1211 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+06-06 00:54:29.354  1211  1211 D BaseDepthController: 	mSurface: null
+06-06 00:54:29.354  1211  1211 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+06-06 00:54:29.357  1211  1211 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+06-06 00:54:29.357  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+06-06 00:54:29.357  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+06-06 00:54:29.357  1211  1211 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+06-06 00:54:29.358  1211  1211 D StatsLog: LAUNCHER_ONSTOP
+06-06 00:54:29.358   556  1357 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+06-06 00:54:29.378   790   948 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@6dbb1ee
+06-06 00:54:29.378   556   826 D CoreBackPreview: Window{e02f47d u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-06 00:54:29.378   556   625 W InputManager-JNI: Input channel object 'e02f47d Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-06 00:54:29.459   556   670 I ImeTracker: ru.poryadok5.app:77eb077b: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-06 00:54:29.459   556   670 I ImeTracker: ru.poryadok5.app:77eb077b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 00:54:30.840  1941  1957 D EGL_emulation: app_time_stats: avg=513.65ms min=87.59ms max=1361.06ms count=3
+06-06 00:54:31.780   556  1362 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-06 00:54:31.873  1980  1980 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 00:54:31.874  1980  1980 I AndroidRuntime: Using default boot image
+06-06 00:54:31.874  1980  1980 I AndroidRuntime: Leaving lock profiling enabled
+06-06 00:54:31.875  1980  1980 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 00:54:31.875  1980  1980 I app_process: Using CollectorTypeCMC GC.
+06-06 00:54:31.904  1980  1980 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 00:54:31.908  1980  1980 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:31.909  1980  1980 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 00:54:31.909  1980  1980 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 00:54:31.909  1980  1980 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:31.909  1980  1980 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:31.913  1980  1980 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 00:54:31.915  1980  1980 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 00:54:31.921  1980  1980 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:31.921  1980  1980 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 00:54:31.922  1980  1980 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 00:54:31.922  1980  1980 I UiAutomation: Initialized for user 0 on display 0
+06-06 00:54:31.922  1980  1980 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 00:54:31.923   556   826 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 00:54:31.923   556   826 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 00:54:31.923   556   826 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:31.924  1980  1991 V UiAutomation: Init UiAutomation@a2141e[id=1, displayId=0, flags=0]
+06-06 00:54:31.924   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 00:54:31.925   556   625 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:31.929  1001  1060 D AccessibilitySourceService: enabled a11y services count 0
+06-06 00:54:31.929  1001  1060 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 00:54:31.929   556   898 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 00:54:32.968  1941  1957 D EGL_emulation: app_time_stats: avg=531.89ms min=24.39ms max=1948.08ms count=4
+06-06 00:54:33.006  1980  1980 W AccessibilityNodeInfoDumper: Fetch time: 72ms
+06-06 00:54:33.007   556   898 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:33.007   556   898 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 00:54:33.007   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 00:54:33.008  1980  1980 D AndroidRuntime: Shutting down VM
+06-06 00:54:33.879  1997  1997 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 00:54:33.879  1997  1997 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 00:54:33.884   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:33.885  1997  1998 I Gralloc4: mapper 4.x is not supported
+06-06 00:54:33.887   159   159 I servicemanager: Caller(pid=1997,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 00:54:34.048  1941  1941 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-06 00:54:34.048  1941  1941 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-06 00:54:34.086  1941  1957 D EGL_emulation: app_time_stats: avg=1117.91ms min=1117.91ms max=1117.91ms count=1
+06-06 00:54:34.670   556   587 D OomAdjuster: Not killing cached processes
+06-06 00:54:34.721  1941  2005 D ProfileInstaller: Installing profile for ru.poryadok5.app
+06-06 00:54:35.086  2008  2008 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 00:54:35.088  2008  2008 I AndroidRuntime: Using default boot image
+06-06 00:54:35.088  2008  2008 I AndroidRuntime: Leaving lock profiling enabled
+06-06 00:54:35.089  2008  2008 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 00:54:35.089  2008  2008 I app_process: Using CollectorTypeCMC GC.
+06-06 00:54:35.113  2008  2008 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 00:54:35.116  2008  2008 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:35.116  2008  2008 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 00:54:35.116  2008  2008 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 00:54:35.116  2008  2008 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:35.117  2008  2008 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:35.118  2008  2008 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 00:54:35.118  2008  2008 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 00:54:35.123  2008  2008 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:35.124  2008  2008 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 00:54:35.125  2008  2008 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 00:54:35.125  2008  2008 I UiAutomation: Initialized for user 0 on display 0
+06-06 00:54:35.125  2008  2008 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 00:54:35.125   556   898 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 00:54:35.126   556   898 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 00:54:35.126   556   898 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:35.127  2008  2019 V UiAutomation: Init UiAutomation@1d37042[id=2, displayId=0, flags=0]
+06-06 00:54:35.127   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 00:54:35.127   556   852 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:35.129  1001  1060 D AccessibilitySourceService: enabled a11y services count 0
+06-06 00:54:35.129  1001  1060 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 00:54:35.129   556   625 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 00:54:36.159  2008  2008 W AccessibilityNodeInfoDumper: Fetch time: 27ms
+06-06 00:54:36.161   556   625 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:36.161   556   625 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 00:54:36.162  2008  2008 D AndroidRuntime: Shutting down VM
+06-06 00:54:36.162   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 00:54:37.031  2023  2023 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 00:54:37.031  2023  2023 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 00:54:37.036   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:37.036  2023  2024 I Gralloc4: mapper 4.x is not supported
+06-06 00:54:37.039   159   159 I servicemanager: Caller(pid=2023,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 00:54:37.203  1941  1957 D EGL_emulation: app_time_stats: avg=3117.35ms min=3117.35ms max=3117.35ms count=1
+06-06 00:54:38.205  1941  1941 W WindowOnBackDispatcher: OnBackInvokedCallback is not enabled for the application.
+06-06 00:54:38.205  1941  1941 W WindowOnBackDispatcher: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+06-06 00:54:38.224  1941  1957 D EGL_emulation: app_time_stats: avg=1020.66ms min=1020.66ms max=1020.66ms count=1
+06-06 00:54:38.538   556   651 D ActivityManager: freezing 1161 android.process.acore
+06-06 00:54:38.580   186  1886 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+06-06 00:54:38.598   365   365 I netd    : tetherGetStats() -> {[]} <0.44ms>
+06-06 00:54:38.648   556   651 D ActivityManager: freezing 1486 android.process.media
+06-06 00:54:38.648   556   651 D ActivityManager: freezing 1890 com.android.documentsui
+06-06 00:54:38.649   556   651 D ActivityManager: freezing 1754 com.android.externalstorage
+06-06 00:54:39.241  1941  1957 D EGL_emulation: app_time_stats: avg=502.68ms min=4.06ms max=1001.30ms count=2
+06-06 00:54:39.272  2038  2038 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 00:54:39.274  2038  2038 I AndroidRuntime: Using default boot image
+06-06 00:54:39.274  2038  2038 I AndroidRuntime: Leaving lock profiling enabled
+06-06 00:54:39.275  2038  2038 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 00:54:39.275  2038  2038 I app_process: Using CollectorTypeCMC GC.
+06-06 00:54:39.299  2038  2038 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 00:54:39.304  2038  2038 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:39.304  2038  2038 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 00:54:39.304  2038  2038 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 00:54:39.305  2038  2038 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:39.305  2038  2038 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:39.306  2038  2038 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 00:54:39.306  2038  2038 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 00:54:39.312  2038  2038 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:39.313  2038  2038 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 00:54:39.314  2038  2038 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 00:54:39.314  2038  2038 I UiAutomation: Initialized for user 0 on display 0
+06-06 00:54:39.314  2038  2038 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 00:54:39.315   556   622 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 00:54:39.315   556   622 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 00:54:39.315   556   622 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:39.316   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:39.316  2038  2049 V UiAutomation: Init UiAutomation@304cc66[id=3, displayId=0, flags=0]
+06-06 00:54:39.316   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:39.317   556   622 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:39.317   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:39.317   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:39.318   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:39.318   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 00:54:39.319  1001  1060 D AccessibilitySourceService: enabled a11y services count 0
+06-06 00:54:39.320  1001  1060 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 00:54:39.320   556   852 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 00:54:40.283  1941  1957 D EGL_emulation: app_time_stats: avg=521.06ms min=23.04ms max=1019.09ms count=2
+06-06 00:54:40.327  1941  1941 D CompatChangeReporter: Compat change id reported: 270674727; UID 10164; state: ENABLED
+06-06 00:54:40.343  2038  2038 W AccessibilityNodeInfoDumper: Fetch time: 19ms
+06-06 00:54:40.344   556   826 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:40.344   556   826 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 00:54:40.344   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:40.344   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:40.344   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:40.344   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 00:54:40.345  2038  2038 D AndroidRuntime: Shutting down VM
+06-06 00:54:41.195  2053  2053 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 00:54:41.195  2053  2053 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 00:54:41.204   159   159 I servicemanager: Caller(pid=2053,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 00:54:41.201   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:41.201  2053  2054 I Gralloc4: mapper 4.x is not supported
+06-06 00:54:41.290  1941  1957 D EGL_emulation: app_time_stats: avg=243.19ms min=0.70ms max=948.52ms count=4
+06-06 00:54:41.330   556   826 D HapticFeedbackCustomization: Customization file not configured.
+06-06 00:54:42.402  2063  2063 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 00:54:42.404  2063  2063 I AndroidRuntime: Using default boot image
+06-06 00:54:42.404  2063  2063 I AndroidRuntime: Leaving lock profiling enabled
+06-06 00:54:42.405  2063  2063 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 00:54:42.405  2063  2063 I app_process: Using CollectorTypeCMC GC.
+06-06 00:54:42.430  2063  2063 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 00:54:42.433  2063  2063 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:42.433  2063  2063 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 00:54:42.433  2063  2063 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 00:54:42.434  2063  2063 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:42.434  2063  2063 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:42.435  2063  2063 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 00:54:42.435  2063  2063 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 00:54:42.442  2063  2063 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:42.442  2063  2063 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 00:54:42.443  2063  2063 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 00:54:42.443  2063  2063 I UiAutomation: Initialized for user 0 on display 0
+06-06 00:54:42.443  2063  2063 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 00:54:42.443   556  1027 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 00:54:42.444   556  1027 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 00:54:42.444   556  1027 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:42.444   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:42.445   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:42.445   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:42.445   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 00:54:42.445  2063  2074 V UiAutomation: Init UiAutomation@fe9d181[id=4, displayId=0, flags=0]
+06-06 00:54:42.446   556   826 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:42.446   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:42.447   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:42.447  1001  1060 D AccessibilitySourceService: enabled a11y services count 0
+06-06 00:54:42.447  1001  1060 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 00:54:42.448   556   625 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 00:54:43.472  2063  2063 W AccessibilityNodeInfoDumper: Fetch time: 13ms
+06-06 00:54:43.473   556   625 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:43.473   556   625 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 00:54:43.473   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:43.474   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:43.474   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:43.474   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 00:54:43.475  2063  2063 D AndroidRuntime: Shutting down VM
+06-06 00:54:44.345  2078  2078 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 00:54:44.345  2078  2078 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 00:54:44.351   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:44.351  2078  2079 I Gralloc4: mapper 4.x is not supported
+06-06 00:54:44.353   159   159 I servicemanager: Caller(pid=2078,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 00:54:44.497  1941  1957 D EGL_emulation: app_time_stats: avg=638.08ms min=3.90ms max=3107.61ms count=5
+06-06 00:54:45.542  2088  2088 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 00:54:45.544  2088  2088 I AndroidRuntime: Using default boot image
+06-06 00:54:45.544  2088  2088 I AndroidRuntime: Leaving lock profiling enabled
+06-06 00:54:45.545  2088  2088 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 00:54:45.545  2088  2088 I app_process: Using CollectorTypeCMC GC.
+06-06 00:54:45.570  2088  2088 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 00:54:45.573  2088  2088 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:45.573  2088  2088 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 00:54:45.573  2088  2088 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 00:54:45.573  2088  2088 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:45.573  2088  2088 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 00:54:45.574  2088  2088 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 00:54:45.574  2088  2088 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 00:54:45.581  2088  2088 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 00:54:45.581  2088  2088 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 00:54:45.582  2088  2088 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 00:54:45.582  2088  2088 I UiAutomation: Initialized for user 0 on display 0
+06-06 00:54:45.582  2088  2088 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 00:54:45.583   556   852 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 00:54:45.583   556   852 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 00:54:45.583   556   852 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:45.584   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:45.584   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:45.584  2088  2099 V UiAutomation: Init UiAutomation@cced69c[id=5, displayId=0, flags=0]
+06-06 00:54:45.584   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:45.584   556   556 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 00:54:45.584   556   625 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:45.585   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:45.585   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:45.585  1001  1060 D AccessibilitySourceService: enabled a11y services count 0
+06-06 00:54:45.585  1001  1060 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 00:54:45.585   556  1357 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 00:54:46.617  2088  2088 W AccessibilityNodeInfoDumper: Fetch time: 24ms
+06-06 00:54:46.619   556   826 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 00:54:46.619   556   826 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 00:54:46.620   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:46.620   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:46.620   556   556 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 00:54:46.620  2088  2088 D AndroidRuntime: Shutting down VM
+06-06 00:54:46.621   556   556 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 00:54:47.495  2103  2103 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 00:54:47.495  2103  2103 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 00:54:47.501   161   161 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 00:54:47.501  2103  2104 I Gralloc4: mapper 4.x is not supported
+06-06 00:54:47.504   159   159 I servicemanager: Caller(pid=2103,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.

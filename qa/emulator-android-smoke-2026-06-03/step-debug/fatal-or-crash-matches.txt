@@ -1,0 +1,40 @@
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:184:06-03 13:02:43.142  3458  3458 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:185:06-03 13:02:43.148  3458  3458 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:186:06-03 13:02:43.148  3458  3458 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:227:06-03 13:02:43.339  3458  3458 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:256:06-03 13:02:44.583  3458  3458 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:265:06-03 13:02:46.588  3484  3484 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:266:06-03 13:02:46.590  3484  3484 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:267:06-03 13:02:46.590  3484  3484 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:279:06-03 13:02:46.643  3484  3484 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:305:06-03 13:02:47.714  3484  3484 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:321:06-03 13:02:50.713  3509  3509 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:322:06-03 13:02:50.716  3509  3509 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:323:06-03 13:02:50.716  3509  3509 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:336:06-03 13:02:50.793  3509  3509 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:371:06-03 13:02:51.893  3509  3509 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:391:06-03 13:02:54.862  3533  3533 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:392:06-03 13:02:54.864  3533  3533 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:393:06-03 13:02:54.864  3533  3533 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:406:06-03 13:02:54.930  3533  3533 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:449:06-03 13:02:55.972  3533  3533 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:460:06-03 13:02:58.928  3556  3556 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:461:06-03 13:02:58.930  3556  3556 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:462:06-03 13:02:58.930  3556  3556 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:474:06-03 13:02:58.986  3556  3556 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:531:06-03 13:03:00.015  3556  3556 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:610:06-03 13:03:12.854  3605  3605 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:611:06-03 13:03:12.857  3605  3605 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:612:06-03 13:03:12.857  3605  3605 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:624:06-03 13:03:12.923  3605  3605 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:665:06-03 13:03:13.947  3605  3605 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:720:06-03 13:03:22.719  3636  3636 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:721:06-03 13:03:22.722  3636  3636 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:722:06-03 13:03:22.722  3636  3636 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:735:06-03 13:03:22.768  3636  3636 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:776:06-03 13:03:23.813  3636  3636 D AndroidRuntime: Shutting down VM
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:835:06-03 13:03:33.230  3663  3663 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:836:06-03 13:03:33.232  3663  3663 I AndroidRuntime: Using default boot image
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:837:06-03 13:03:33.232  3663  3663 I AndroidRuntime: Leaving lock profiling enabled
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:849:06-03 13:03:33.275  3663  3663 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+qa/emulator-android-smoke-2026-06-03/step-debug/logcat.txt:890:06-03 13:03:34.301  3663  3663 D AndroidRuntime: Shutting down VM

@@ -1,0 +1,2 @@
+--------- beginning of main
+05-27 16:11:26.383  2739  2739 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false

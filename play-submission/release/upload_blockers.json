@@ -1,0 +1,100 @@
+{
+  "appId": "ru.poryadok5.app",
+  "blockers": [
+    {
+      "category": "signing",
+      "evidence": "Strict release signing preflight does not pass in the current environment.",
+      "id": "release_signing_inputs_missing",
+      "requiredAction": "Configure PORYADOK5_KEYSTORE_PATH, PORYADOK5_KEYSTORE_PASSWORD, PORYADOK5_KEY_ALIAS and PORYADOK5_KEY_PASSWORD from environment or a user Gradle properties file outside the repository.",
+      "scope": "external_secret",
+      "status": "open",
+      "verification": "scripts/check_release_signing_inputs.py --require passes."
+    },
+    {
+      "category": "signing",
+      "evidence": "The packet does not contain a jarsigner-verified signed upload AAB.",
+      "id": "signed_upload_aab_missing",
+      "requiredAction": "Run scripts/prepare_play_upload_candidate.sh after release signing inputs are available so play-submission/release/app-release.aab is included.",
+      "scope": "external_secret",
+      "status": "open",
+      "verification": "scripts/check_release_artifact_manifest.py passes with packetReleaseAab sha256 matching the current signed release AAB."
+    },
+    {
+      "category": "privacy",
+      "evidence": "No valid public privacy policy URL is configured for the current upload gate.",
+      "id": "public_privacy_policy_url_missing",
+      "requiredAction": "Host play-submission/text/privacy_policy_publishable_ru.html or equivalent content at a stable public HTTPS URL and export PORYADOK5_PRIVACY_POLICY_URL.",
+      "scope": "external_hosting",
+      "status": "open",
+      "verification": "scripts/check_play_upload_external_inputs.py reaches and validates the live URL."
+    },
+    {
+      "category": "privacy",
+      "evidence": "No valid non-reserved support email is configured for the current upload gate.",
+      "id": "support_email_missing",
+      "requiredAction": "Export PORYADOK5_SUPPORT_EMAIL with the developer support email used in Play Console.",
+      "scope": "external_account",
+      "status": "open",
+      "verification": "scripts/check_play_upload_external_inputs.py accepts PORYADOK5_SUPPORT_EMAIL."
+    },
+    {
+      "category": "privacy",
+      "evidence": "The local template still contains the pre-publication contact instruction.",
+      "id": "privacy_policy_contact_not_replaced",
+      "requiredAction": "Generate the publishable privacy policy with PORYADOK5_SUPPORT_EMAIL and publish content that does not contain the pre-publication contact instruction.",
+      "scope": "external_hosting",
+      "status": "open",
+      "verification": "scripts/check_publishable_privacy_policy.py passes and the live policy contains the configured support email."
+    },
+    {
+      "category": "store_asset",
+      "evidence": "Feature graphic approval has not been confirmed in the current environment.",
+      "id": "feature_graphic_not_confirmed",
+      "requiredAction": "Preview the feature graphic in Play Console and export PORYADOK5_FEATURE_GRAPHIC_APPROVED=yes after approval.",
+      "scope": "play_console_manual",
+      "status": "open",
+      "verification": "scripts/check_play_upload_readiness.py --require-upload-ready reports the flag confirmed."
+    },
+    {
+      "category": "play_console_form",
+      "evidence": "Data Safety completion has not been confirmed in the current environment.",
+      "id": "data_safety_not_confirmed",
+      "requiredAction": "Complete the Play Console Data Safety form as no data collected/shared and export PORYADOK5_DATA_SAFETY_CONFIRMED=yes.",
+      "scope": "play_console_manual",
+      "status": "open",
+      "verification": "scripts/check_play_upload_readiness.py --require-upload-ready reports the flag confirmed."
+    },
+    {
+      "category": "play_console_form",
+      "evidence": "Target Audience and Content completion has not been confirmed in the current environment.",
+      "id": "target_audience_not_confirmed",
+      "requiredAction": "Complete Target Audience and Content as 13+ and not children-directed, then export PORYADOK5_TARGET_AUDIENCE_CONFIRMED=yes.",
+      "scope": "play_console_manual",
+      "status": "open",
+      "verification": "scripts/check_play_upload_readiness.py --require-upload-ready reports the flag confirmed."
+    },
+    {
+      "category": "play_console_form",
+      "evidence": "Content Rating completion has not been confirmed in the current environment.",
+      "id": "content_rating_not_confirmed",
+      "requiredAction": "Complete the Play Console Content Rating questionnaire and export PORYADOK5_CONTENT_RATING_CONFIRMED=yes.",
+      "scope": "play_console_manual",
+      "status": "open",
+      "verification": "scripts/check_play_upload_readiness.py --require-upload-ready reports the flag confirmed."
+    },
+    {
+      "category": "play_console_testing",
+      "evidence": "Internal testing track install verification has not been confirmed in the current environment.",
+      "id": "internal_testing_not_confirmed",
+      "requiredAction": "Install the Play-distributed build from the internal testing track and export PORYADOK5_INTERNAL_TESTING_CONFIRMED=yes after the flow is checked.",
+      "scope": "play_console_manual",
+      "status": "open",
+      "verification": "scripts/check_play_upload_readiness.py --require-upload-ready reports the flag confirmed."
+    }
+  ],
+  "generatedFrom": "play-submission/release/artifact_manifest.json",
+  "playUploadReady": false,
+  "schemaVersion": 1,
+  "versionCode": 1,
+  "versionName": "1.0.0-rc1"
+}

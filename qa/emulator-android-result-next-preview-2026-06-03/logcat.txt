@@ -1,0 +1,164 @@
+--------- beginning of system
+06-03 13:10:33.885   554   748 D ShortcutService: Saving package item com.android.launcher3 to /data/system_ce/0/shortcut_service/launchers/com.android.launcher30.xml
+06-03 13:10:33.922   554  2468 W ActivityTaskManager: callingPackage for (uid=2000, pid=5176) has no WPC
+06-03 13:10:33.922   554  2468 D CompatChangeReporter: Compat change id reported: 151861875; UID 10166; state: ENABLED
+06-03 13:10:33.923   554  2468 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+--------- beginning of main
+06-03 13:10:33.923   554  2468 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10166, packageName = null, attributionTag = null, token = android.os.Binder@ac83764, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-03 13:10:33.923   554  2468 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-03 13:10:33.923   554  2468 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-03 13:10:33.925   554  2468 V SplashScreenExceptionList: SplashScreen checking exception for package com.fiftyfive.seconds (target sdk:35) -> false
+06-03 13:10:33.926   554  2468 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.fiftyfive.seconds/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-03 13:10:33.926   790   824 V WindowManagerShell: Transition requested (#68): android.os.BinderProxy@d11935e TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=105 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.fiftyfive.seconds/.MainActivity } baseActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} topActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} origActivity=null realActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} numActivities=1 lastActiveTime=547267 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@416933f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{34140c com.fiftyfive.seconds.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 68 }
+06-03 13:10:33.926   554   833 D CompatChangeReporter: Compat change id reported: 309578419; UID 10166; state: ENABLED
+06-03 13:10:33.927   554   578 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10166, packageName = null, attributionTag = null, token = android.os.Binder@ac83764, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-03 13:10:33.927   554  1774 I AppsFilter: interaction: PackageSetting{e29a5db ru.poryadok5.app/10153} -> PackageSetting{73346e0 com.fiftyfive.seconds/10166} BLOCKED
+06-03 13:10:33.927   554  1774 I AppsFilter: interaction: PackageSetting{b4cdb51 com.apuestalatam.guia.debug/10148} -> PackageSetting{73346e0 com.fiftyfive.seconds/10166} BLOCKED
+06-03 13:10:33.927   554  1774 I AppsFilter: interaction: PackageSetting{c323fb6 com.apuestalatam.guia.debug.test/10149} -> PackageSetting{73346e0 com.fiftyfive.seconds/10166} BLOCKED
+06-03 13:10:33.927  1184  1184 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=105, baseIntent=Intent { flg=0x10000000 cmp=com.fiftyfive.seconds/.MainActivity }
+06-03 13:10:33.928   790   949 D SplashScreenView: Build android.window.SplashScreenView{cadab37 V.E...... ......ID 0,0-0,0}
+06-03 13:10:33.928   790   949 D SplashScreenView: Icon: view: android.widget.ImageView{3a6d8a4 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@6e4660d size: 504
+06-03 13:10:33.928   790   949 D SplashScreenView: Branding: view: android.view.View{16599c2 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+06-03 13:10:33.931   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-03 13:10:33.931   554   729 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+06-03 13:10:33.931   554   729 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10166 package com.fiftyfive.seconds isStopped false
+06-03 13:10:33.936   554  1774 D CoreBackPreview: Window{a46e85e u0 Splash Screen com.fiftyfive.seconds}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@a5dfc37, mPriority=0, mIsAnimationCallback=false}
+06-03 13:10:33.937   361   361 D Zygote  : Forked child process 5179
+06-03 13:10:33.938   554   586 I ActivityManager: Start proc 5179:com.fiftyfive.seconds/u0a166 for next-top-activity {com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity}
+06-03 13:10:33.949  5179  5179 I ftyfive.seconds: Using CollectorTypeCMC GC.
+06-03 13:10:33.951  5179  5179 E ftyfive.seconds: Not starting debugger since process cannot load the jdwp agent.
+06-03 13:10:33.952  5179  5179 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-03 13:10:33.956   790   997 V WindowManagerShell: onTransitionReady(transaction=2379411885685)
+06-03 13:10:33.956   790   824 V WindowManagerShell: onTransitionReady (#68) android.os.BinderProxy@d11935e: {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c9992e6} m=OPEN f=NONE leash=Surface(name=Task=105)/@0xaf9da4b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c09d027} m=TO_BACK f=NONE leash=Surface(name=Task=80)/@0xde6fc28 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:10:33.956   790   824 V WindowManagerShell: Playing animation for (#68) android.os.BinderProxy@d11935e@0
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@693d024
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@632c78d
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@7a1d42
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@bf4c153
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@34fca90
+06-03 13:10:33.956   790   824 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@4114f89
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@e90cb8e
+06-03 13:10:33.956   790   824 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c9992e6} m=OPEN f=NONE leash=Surface(name=Task=105)/@0xaf9da4b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c09d027} m=TO_BACK f=NONE leash=Surface(name=Task=80)/@0xde6fc28 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:10:33.956   790   824 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@f801faf, appThread = android.app.IApplicationThread$Stub$Proxy@38effbc, debugName = QuickstepLaunchHome }}
+06-03 13:10:33.956   790   824 V WindowManagerShell:  Delegate animation for (#68) to null
+06-03 13:10:33.956   790   824 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@d365b45
+06-03 13:10:33.956   790   824 V WindowManagerShell: start default transition animation, info = {id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@c9992e6} m=OPEN f=NONE leash=Surface(name=Task=105)/@0xaf9da4b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@c09d027} m=TO_BACK f=NONE leash=Surface(name=Task=80)/@0xde6fc28 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:10:33.957   790   824 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@1dbf772 animAttr=0x9 type=OPEN isEntrance=false
+06-03 13:10:33.957   790   824 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@4132840 animAttr=0x8 type=OPEN isEntrance=true
+06-03 13:10:33.958   790   824 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@d365b45
+06-03 13:10:33.960   554   575 V WindowManager: Sent Transition (#68) createdAt=06-03 13:10:33.923 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=105 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.fiftyfive.seconds/.MainActivity } baseActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} topActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} origActivity=null realActivity=ComponentInfo{com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity} numActivities=1 lastActiveTime=547267 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{20c24d3 Task{96f862d #105 type=standard A=10166:com.fiftyfive.seconds}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{962810 com.fiftyfive.seconds.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 68 }
+06-03 13:10:33.960   554   575 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-03 13:10:33.960   554   575 V WindowManager:     info={id=68 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-03 13:10:33.960   554   575 V WindowManager:         {WCT{RemoteToken{20c24d3 Task{96f862d #105 type=standard A=10166:com.fiftyfive.seconds}}} m=OPEN f=NONE leash=Surface(name=Task=105)/@0x6ef9f0d sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-03 13:10:33.960   554   575 V WindowManager:         {WCT{RemoteToken{1688304 Task{e6488d6 #80 type=standard A=10153:ru.poryadok5.app}}} m=TO_BACK f=NONE leash=Surface(name=Task=80)/@0x7b9fb96 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+06-03 13:10:33.960   554   575 V WindowManager:     ]}
+06-03 13:10:33.962   554   833 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:10:33.978  5179  5179 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-03 13:10:33.978  5179  5179 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-03 13:10:33.978  5179  5179 D nativeloader: Configuring clns-7 for other apk /data/app/~~ZC7A02igh00fqi2PF1-tLQ==/com.fiftyfive.seconds-d_cpAAv39cHOPqwip4UAeA==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~ZC7A02igh00fqi2PF1-tLQ==/com.fiftyfive.seconds-d_cpAAv39cHOPqwip4UAeA==/lib/arm64:/data/app/~~ZC7A02igh00fqi2PF1-tLQ==/com.fiftyfive.seconds-d_cpAAv39cHOPqwip4UAeA==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.fiftyfive.seconds
+06-03 13:10:33.978  5179  5179 D CompatChangeReporter: Compat change id reported: 202956589; UID 10166; state: ENABLED
+06-03 13:10:33.981  5179  5179 V GraphicsEnvironment: Currently set values for:
+06-03 13:10:33.981  5179  5179 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-03 13:10:33.981  5179  5179 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-03 13:10:33.981  5179  5179 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-03 13:10:33.981  5179  5179 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-03 13:10:33.986  5179  5179 D CompatChangeReporter: Compat change id reported: 279646685; UID 10166; state: ENABLED
+06-03 13:10:33.988   554   833 D CompatChangeReporter: Compat change id reported: 324203798; UID 10166; state: ENABLED
+06-03 13:10:33.996   790   796 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Etv75w465gCQU8mikyClOQ==/com.fiftyfive.seconds.debug.test-YFX6d3HF5ykfcsxfON9aKw==/base.apk' with 2 weak references
+06-03 13:10:33.996   790   796 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Xmow08-w7RymntWEH8poDg==/com.fiftyfive.seconds.debug-2j4Rc3IsM3mN8nst8x-PvQ==/base.apk' with 1 weak references
+06-03 13:10:33.999  5179  5179 D CompatChangeReporter: Compat change id reported: 309578419; UID 10166; state: ENABLED
+06-03 13:10:34.004  5179  5179 W HWUI    : Unknown dataspace 0
+06-03 13:10:34.024   554   833 D CoreBackPreview: Window{a664e1f u0 com.fiftyfive.seconds/com.fiftyfive.seconds.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@eabad3b, mPriority=0, mIsAnimationCallback=false}
+06-03 13:10:34.039   406   506 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10166 pid=0
+06-03 13:10:34.039   406  1240 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10166 pid=5179
+06-03 13:10:34.039   406  1240 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10166 => denied (142 us)
+06-03 13:10:34.039   406   506 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10166 => denied (215 us)
+06-03 13:10:34.039   406  1240 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10166 pid=5179
+06-03 13:10:34.039   406  1240 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10166 => denied (361 us)
+06-03 13:10:34.039   406   506 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10166 pid=0
+06-03 13:10:34.039   406   506 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10166 => denied (303 us)
+06-03 13:10:34.039   406  1240 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10166 pid=5179
+06-03 13:10:34.039   406  1240 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10166 => denied (189 us)
+06-03 13:10:34.040   406   506 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10166 pid=0
+06-03 13:10:34.040   406   506 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10166 => denied (365 us)
+06-03 13:10:34.040  5179  5193 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-03 13:10:34.040  5179  5193 I EGL_emulation: Opening libGLESv2_emulation.so
+06-03 13:10:34.043  5179  5193 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-03 13:10:34.043  5179  5193 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-03 13:10:34.048   157   157 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-03 13:10:34.048  5179  5193 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+06-03 13:10:34.049   156   156 I servicemanager: Caller(pid=5179,uid=10166,sid=u:r:untrusted_app:s0:c166,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-03 13:10:34.061  1241  1294 I LatinIME:LogUtils: Dictionary info: dictionary = main:en ; version = 54 ; date = 1414726273
+06-03 13:10:34.090   554   833 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10166 pid=0
+06-03 13:10:34.090   554   833 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10166 => denied (71 us)
+06-03 13:10:34.090   554   833 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10166 pid=0
+06-03 13:10:34.090   554   833 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10166 => denied (6 us)
+06-03 13:10:34.090   554   833 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10166 pid=0
+06-03 13:10:34.090   554   833 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10166 => denied (3 us)
+06-03 13:10:34.092   554   575 I ActivityTaskManager: Displayed com.fiftyfive.seconds/.MainActivity for user 0: +169ms
+06-03 13:10:34.121   554   669 I ImeTracker: com.fiftyfive.seconds:3297ac07: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-03 13:10:34.121   554   669 I ImeTracker: com.fiftyfive.seconds:3297ac07: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-03 13:10:34.360  4299  4317 D EGL_emulation: app_time_stats: avg=503.41ms min=14.05ms max=992.76ms count=2
+06-03 13:10:34.457   790   947 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@bf7900e
+06-03 13:10:34.457   554  2468 D CoreBackPreview: Window{a46e85e u0 Splash Screen com.fiftyfive.seconds EXITING}: Setting back callback null
+06-03 13:10:34.458   554  1774 W InputManager-JNI: Input channel object 'a46e85e Splash Screen com.fiftyfive.seconds (client)' was disposed without first being removed with the input manager!
+06-03 13:10:34.465   790   824 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#68) android.os.BinderProxy@d11935e@0
+06-03 13:10:34.471   554   575 V WindowManager: Finish Transition (#68): created at 06-03 13:10:33.923 collect-started=0.09ms request-sent=2.14ms started=2.974ms ready=29.767ms sent=31.57ms finished=547.655ms
+06-03 13:10:34.472  4299  4299 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-03 13:10:34.472   790   824 V WindowManagerShell: Track 0 became idle
+06-03 13:10:34.472   790   824 V WindowManagerShell: All active transition animations finished
+06-03 13:10:34.473   554  1774 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:10:34.473   554  1774 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:10:34.508   790   947 W FrameTracker: Missed App frame:UNKNOWN: 24, 92008, 17102606, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 24, 92008, 17102606, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92023, 26504356, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92038, 26153190, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92053, 26954566, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92068, 26000608, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92083, 25724359, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92098, 25125526, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92113, 33576527, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92135, 30005236, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92157, 26719320, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92179, 25294154, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92194, 25644363, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   947 W FrameTracker: Missed SF frame:UNKNOWN: 80, 92209, 27173947, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:10:34.508   790   864 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-39 - not enough time since last trigger
+06-03 13:10:34.525   554  2468 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:34.525   554  2468 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:34.526   554  2468 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:34.577   554   653 I RoleService: Granting default roles...
+06-03 13:10:34.581   554  1830 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.android.devicelockcontroller, role: android.app.role.SYSTEM_FINANCED_DEVICE_CONTROLLER
+06-03 13:10:35.374  5207  5207 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-03 13:10:35.376  5207  5207 I AndroidRuntime: Using default boot image
+06-03 13:10:35.376  5207  5207 I AndroidRuntime: Leaving lock profiling enabled
+06-03 13:10:35.377  5207  5207 I app_process: Core platform API reporting enabled, enforcing=false
+06-03 13:10:35.377  5207  5207 I app_process: Using CollectorTypeCMC GC.
+06-03 13:10:35.406  5207  5207 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-03 13:10:35.409  5207  5207 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:10:35.409  5207  5207 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-03 13:10:35.409  5207  5207 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-03 13:10:35.410  5207  5207 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:10:35.410  5207  5207 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:10:35.411  5207  5207 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-03 13:10:35.411  5207  5207 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-03 13:10:35.419  5207  5207 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-03 13:10:35.419  5207  5207 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-03 13:10:35.420  5207  5207 D UiAutomationConnection: Created on user UserHandle{0}
+06-03 13:10:35.420  5207  5207 I UiAutomation: Initialized for user 0 on display 0
+06-03 13:10:35.420  5207  5207 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-03 13:10:35.421   554  2468 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-03 13:10:35.421   554  2468 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-03 13:10:35.421   554  2468 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-03 13:10:35.422  5207  5219 V UiAutomation: Init UiAutomation@74dc562[id=55, displayId=0, flags=0]
+06-03 13:10:35.422   554  2468 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-03 13:10:35.424   554   554 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-03 13:10:35.424   983  1066 D AccessibilitySourceService: enabled a11y services count 0
+06-03 13:10:35.424   983  1066 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-03 13:10:35.425   554   828 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-03 13:10:35.529   554  4228 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:35.529   554  4228 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:35.530   554  4228 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:10:36.131   169   169 I logd    : logdr: UID=2000 GID=2000 PID=5220 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns

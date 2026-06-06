@@ -1,0 +1,3 @@
+01-onboarding.png: 1080x2400 RGBA
+02-home.png: 1080x2400 RGBA
+03-timer.png: 1080x2400 RGBA

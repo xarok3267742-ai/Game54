@@ -1,0 +1,9 @@
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-home-filter-whole-row-qa-2026-06-06/02-home-collapsed.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-home-filter-whole-row-qa-2026-06-06/03-home-expanded-by-summary.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-home-filter-whole-row-qa-2026-06-06/04-home-expanded-lower.png
+  pixelWidth: 1080
+  pixelHeight: 2400

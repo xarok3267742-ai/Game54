@@ -1,0 +1,3 @@
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/01-onboarding.png
+  pixelWidth: 1080
+  pixelHeight: 2400

@@ -1,0 +1,1 @@
+Опции center from 02-home.xml button bounds [901,128][1027,254]: 964 191

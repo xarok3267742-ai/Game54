@@ -1,0 +1,6 @@
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/04-result.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-result-details-first-qa-2026-06-06/04-result-details-first.png
+  pixelWidth: 1080
+  pixelHeight: 2400

@@ -1,0 +1,1 @@
+Начать 5 мин center from 03b-details-lower.xml clickable bounds [53,2105][1027,2242]: 540 2174

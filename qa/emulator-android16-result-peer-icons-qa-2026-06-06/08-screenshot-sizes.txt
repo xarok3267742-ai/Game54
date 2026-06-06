@@ -1,0 +1,4 @@
+qa/emulator-android16-result-peer-icons-qa-2026-06-06/01-onboarding.png: PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced
+qa/emulator-android16-result-peer-icons-qa-2026-06-06/02-home.png:       PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced
+qa/emulator-android16-result-peer-icons-qa-2026-06-06/03-timer.png:      PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced
+qa/emulator-android16-result-peer-icons-qa-2026-06-06/04-result.png:     PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced

@@ -1,0 +1,15 @@
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android16-home-filter-disclosure-qa-2026-06-06/01-onboarding.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android16-home-filter-disclosure-qa-2026-06-06/02-home-collapsed.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android16-home-filter-disclosure-qa-2026-06-06/03-home-expanded.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android16-home-filter-disclosure-qa-2026-06-06/03b-home-expanded-lower.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/02-home.png
+  pixelWidth: 1080
+  pixelHeight: 2400

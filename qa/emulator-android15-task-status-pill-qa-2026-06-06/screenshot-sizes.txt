@@ -1,0 +1,12 @@
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/02-home.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/04-result.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-task-status-pill-qa-2026-06-06/02-home-status-pill.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-task-status-pill-qa-2026-06-06/04-result-status-pill.png
+  pixelWidth: 1080
+  pixelHeight: 2400

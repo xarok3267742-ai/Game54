@@ -1,0 +1,1 @@
+Запустить таймер center from 02-home.xml clickable bounds [53,1168][1027,1305]: 540 1236

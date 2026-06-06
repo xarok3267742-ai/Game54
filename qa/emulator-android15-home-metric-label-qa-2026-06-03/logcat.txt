@@ -1,0 +1,609 @@
+--------- beginning of main
+06-03 13:52:39.075  1357  1569 D MediaGrants: Removed 0 media_grants for 0 user for [ru.poryadok5.app, ru.poryadok5.app]. Reason: Package orphaned
+06-03 13:52:39.075  1357  1569 I MediaProvider: End Intent { act=android.intent.action.PACKAGE_DATA_CLEARED dat=package: flg=0x5000010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService (has extras) }
+06-03 13:52:39.080  1866  1866 I oid.documentsui: Using CollectorTypeCMC GC.
+06-03 13:52:39.081  1866  1866 E oid.documentsui: Not starting debugger since process cannot load the jdwp agent.
+06-03 13:52:39.082  1866  1866 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-03 13:52:39.112  1866  1866 D nativeloader: Configuring clns-shared-7 for other apk /system/priv-app/DocumentsUI/DocumentsUI.apk. target_sdk_version=35, uses_libraries=, library_path=/system/priv-app/DocumentsUI/lib/arm64:/system/lib64:/system_ext/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.android.documentsui:/system/priv-app/DocumentsUI:/system/lib64:/system_ext/lib64
+06-03 13:52:39.115  1866  1866 D CompatChangeReporter: Compat change id reported: 202956589; UID 10069; state: ENABLED
+06-03 13:52:39.119  1866  1866 V GraphicsEnvironment: Currently set values for:
+06-03 13:52:39.119  1866  1866 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-03 13:52:39.119  1866  1866 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-03 13:52:39.119  1866  1866 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-03 13:52:39.119  1866  1866 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-03 13:52:39.131  1866  1866 E StrictMode: Tried to access the API:LayoutInflater which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0 The API:LayoutInflater needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-03 13:52:39.131  1866  1866 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:LayoutInflater which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.view.LayoutInflater.<init>(LayoutInflater.java:241)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.<init>(PhoneLayoutInflater.java:44)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.SystemServiceRegistry$32.createService(SystemServiceRegistry.java:597)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.SystemServiceRegistry$32.createService(SystemServiceRegistry.java:594)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.SystemServiceRegistry$CachedServiceFetcher.getService(SystemServiceRegistry.java:2231)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.SystemServiceRegistry.getSystemService(SystemServiceRegistry.java:1812)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.ContextImpl.getSystemService(ContextImpl.java:2241)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.content.ContextWrapper.getSystemService(ContextWrapper.java:936)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.view.LayoutInflater.from(LayoutInflater.java:267)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-03 13:52:39.131  1866  1866 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+--------- beginning of system
+06-03 13:52:39.132   557   603 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-03 13:52:39.133  1866  1866 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0 The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-03 13:52:39.133  1866  1866 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.ViewGroup.<init>(ViewGroup.java:703)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:543)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-03 13:52:39.133  1866  1866 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-03 13:52:39.135   557   603 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-03 13:52:39.136  1866  1866 D CompatChangeReporter: Compat change id reported: 279646685; UID 10069; state: ENABLED
+06-03 13:52:39.137  1866  1866 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0 The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-03 13:52:39.137  1866  1866 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.ViewGroup.<init>(ViewGroup.java:703)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:254)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:250)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.widget.LinearLayout.<init>(LinearLayout.java:246)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1011)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-03 13:52:39.137  1866  1866 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-03 13:52:39.138  1866  1866 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0 The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-03 13:52:39.138  1866  1866 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:196)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:191)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.widget.ImageView.<init>(ImageView.java:187)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DropBadgeView.<init>(DropBadgeView.java:40)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:894)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1118)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1007)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1014)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-03 13:52:39.138  1866  1866 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-03 13:52:39.138   557   645 D ActivityManager: sync unfroze 1785 com.android.externalstorage for 7
+06-03 13:52:39.139   557   603 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-03 13:52:39.141   557   603 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-03 13:52:39.141  1866  1866 E StrictMode: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0 The API:ViewConfiguration needs a proper configuration. Use UI contexts such as an activity or a context created via createWindowContext(Display, int, Bundle) or  createConfigurationContext(Configuration) with a proper configuration.
+06-03 13:52:39.141  1866  1866 E StrictMode: java.lang.IllegalAccessException: Tried to access the API:ViewConfiguration which needs to have proper configuration from a non-UI Context:com.android.documentsui.DocumentsApplication@afefef0
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.os.StrictMode.assertConfigurationContext(StrictMode.java:2352)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.ViewConfiguration.get(ViewConfiguration.java:604)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5820)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.View.<init>(View.java:5951)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1173)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1167)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.widget.TextView.<init>(TextView.java:1163)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:742)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createView(LayoutInflater.java:664)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.internal.policy.PhoneLayoutInflater.onCreateView(PhoneLayoutInflater.java:58)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:818)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.onCreateView(LayoutInflater.java:838)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:892)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:849)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1011)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1014)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:972)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:570)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:462)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:413)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.documentsui.DragShadowBuilder.<init>(DragShadowBuilder.java:49)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:195)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager$RuntimeDragAndDropManager.<init>(DragAndDropManager.java:0)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.documentsui.DragAndDropManager.create(DragAndDropManager.java:163)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.documentsui.DocumentsApplication.onCreate(DocumentsApplication.java:208)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1386)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7504)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2416)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.os.Looper.loopOnce(Looper.java:232)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.os.Looper.loop(Looper.java:317)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at android.app.ActivityThread.main(ActivityThread.java:8705)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at java.lang.reflect.Method.invoke(Native Method)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+06-03 13:52:39.141  1866  1866 E StrictMode: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+06-03 13:52:39.142  1866  1866 D CompatChangeReporter: Compat change id reported: 63938206; UID 10069; state: ENABLED
+06-03 13:52:39.143   557   603 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-03 13:52:39.144  1866  1866 D DocumentsApplication: OverlayManager.setEnabled() result: true
+06-03 13:52:39.160   557   774 D ShortcutService: Saving package item com.android.launcher3 to /data/system_ce/0/shortcut_service/launchers/com.android.launcher30.xml
+06-03 13:52:39.177   557   645 W ActivityTaskManager: callingPackage for (uid=2000, pid=1892) has no WPC
+06-03 13:52:39.177   557   645 D CompatChangeReporter: Compat change id reported: 151861875; UID 10163; state: ENABLED
+06-03 13:52:39.177   557   645 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+06-03 13:52:39.178   557   645 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10163, packageName = null, attributionTag = null, token = android.os.Binder@9bbb3a2, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-03 13:52:39.178   557   645 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-03 13:52:39.178   557   645 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-03 13:52:39.180   557   645 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-03 13:52:39.181   557   645 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-03 13:52:39.181   815   879 V WindowManagerShell: Transition requested (#4): android.os.BinderProxy@51c685f TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=524 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=26765 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d5f92ac} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{d6a0b75 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+06-03 13:52:39.181  1223  1223 W SplitSelectStateCtor: Missing session instanceIds
+06-03 13:52:39.181  1223  1223 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+06-03 13:52:39.181   557   580 D CompatChangeReporter: Compat change id reported: 309578419; UID 10163; state: ENABLED
+06-03 13:52:39.182   557   604 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10163, packageName = null, attributionTag = null, token = android.os.Binder@9bbb3a2, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{64aeb17 com.sevenkards.app.debug.test/10158} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{c9058ed com.roxbox.solpair/10149} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{8dc4322 de.wettblick.app/10162} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{8921b3 ru.cisgame.colorquarter.debug/10156} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{61a1370 com.casi.casino/10153} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{3a696e9 com.route53.game.debug/10159} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{11f6f6e com.andrejivliev.marketguide.debug/10148} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{b6a260f com.sevenkards.app.debug/10157} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{264f69c com.andrej.cars4096/10151} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{c8b8a5 com.mellstory.airlines/10154} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{257147a com.apuestalatam.guia.debug/10160} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{7ad142b com.apuestalatam.guia.debug.test/10161} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   557   850 I AppsFilter: interaction: PackageSetting{518e088 com.sevenk.app/10150} -> PackageSetting{7fbbf74 ru.poryadok5.app/10163} BLOCKED
+06-03 13:52:39.183   815   879 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=294
+06-03 13:52:39.185   557   757 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+06-03 13:52:39.185  1223  1223 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=524, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-03 13:52:39.185   557   757 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10163 package ru.poryadok5.app isStopped false
+06-03 13:52:39.185   815   994 D SplashScreenView: Build android.window.SplashScreenView{1bdcb6c V.E...... ......ID 0,0-0,0}
+06-03 13:52:39.185   815   994 D SplashScreenView: Icon: view: android.widget.ImageView{352b535 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@96b7dca size: 504
+06-03 13:52:39.185   815   994 D SplashScreenView: Branding: view: android.view.View{7544b3b G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+06-03 13:52:39.188   365   365 D Zygote  : Forked child process 1895
+06-03 13:52:39.188   557   612 I ActivityManager: Start proc 1895:ru.poryadok5.app/u0a163 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-03 13:52:39.196   407   407 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-03 13:52:39.198   557   872 D CoreBackPreview: Window{83fb4e3 u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@aa33255, mPriority=0, mIsAnimationCallback=false}
+06-03 13:52:39.205  1895  1895 I u.poryadok5.app: Late-enabling -Xcheck:jni
+06-03 13:52:39.209   557   601 V WindowManager: Sent Transition (#4) createdAt=06-03 13:52:39.178 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=524 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=26765 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{101f437 Task{e7f53f1 #524 type=standard A=10163:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{fc7eda4 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 4 }
+06-03 13:52:39.209   815   826 V WindowManagerShell: onTransitionReady(transaction=2392296784130)
+06-03 13:52:39.209   557   601 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-03 13:52:39.209   557   601 V WindowManager:     info={id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-03 13:52:39.209   557   601 V WindowManager:         {WCT{RemoteToken{101f437 Task{e7f53f1 #524 type=standard A=10163:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=524)/@0xdcdd5b sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-03 13:52:39.209   557   601 V WindowManager:         {WCT{RemoteToken{360570d Task{1c858d2 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x390846a sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+06-03 13:52:39.209   557   601 V WindowManager:     ]}
+06-03 13:52:39.210   815   879 V WindowManagerShell: onTransitionReady (#4) android.os.BinderProxy@51c685f: {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@3ab3b0f} m=OPEN f=NONE leash=Surface(name=Task=524)/@0xba8f470 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@880e79c} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa63e9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:52:39.210   815   879 V WindowManagerShell: Playing animation for (#4) android.os.BinderProxy@51c685f@0
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@cb73379
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@445f8be
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@488fd1f
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@6d686c
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@3ee8e35
+06-03 13:52:39.210   815   879 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@de4e2ca
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@9ca4c3b
+06-03 13:52:39.210   815   879 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@3ab3b0f} m=OPEN f=NONE leash=Surface(name=Task=524)/@0xba8f470 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@880e79c} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa63e9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:52:39.210   815   879 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@efe9f58, appThread = android.app.IApplicationThread$Stub$Proxy@d06d8b1, debugName = QuickstepLaunchHome }}
+06-03 13:52:39.210   815   879 V WindowManagerShell:  Delegate animation for (#4) to null
+06-03 13:52:39.210   815   879 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@bd66196
+06-03 13:52:39.210   815   879 V WindowManagerShell: start default transition animation, info = {id=4 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@3ab3b0f} m=OPEN f=NONE leash=Surface(name=Task=524)/@0xba8f470 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@880e79c} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xa63e9 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-03 13:52:39.210   815   879 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@4c6ed7a animAttr=0x13 type=OPEN isEntrance=false
+06-03 13:52:39.210   815   879 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@4466746 animAttr=0x12 type=OPEN isEntrance=true
+06-03 13:52:39.211   815   879 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@bd66196
+06-03 13:52:39.215  1895  1895 I u.poryadok5.app: Using CollectorTypeCMC GC.
+06-03 13:52:39.214   557   872 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:52:39.222   815  1014 D EGL_emulation: app_time_stats: avg=583.57ms min=7.38ms max=9058.63ms count=16
+06-03 13:52:39.239  1223  1370 D EGL_emulation: app_time_stats: avg=3713.96ms min=115.69ms max=10905.34ms count=3
+06-03 13:52:39.240   410   467 I adbd    : jdwp connection from 1895
+06-03 13:52:39.243  1895  1895 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-03 13:52:39.244  1223  1370 D EGL_emulation: app_time_stats: avg=5508.54ms min=36.81ms max=10980.27ms count=2
+06-03 13:52:39.271  1895  1895 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-03 13:52:39.271  1895  1895 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-03 13:52:39.271  1895  1895 W ziparchive: Unable to open '/data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/base.dm': No such file or directory
+06-03 13:52:39.271  1895  1895 W ziparchive: Unable to open '/data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/base.dm': No such file or directory
+06-03 13:52:39.340   557  1909 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-03 13:52:39.340   557  1909 I EGL_emulation: Opening libGLESv2_emulation.so
+06-03 13:52:39.344   557  1909 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-03 13:52:39.344   557  1909 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-03 13:52:39.360   557   850 W ActivityTaskManager: takeTaskSnapshot: taskId=523 not found or not visible
+06-03 13:52:39.496   815   879 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#4) android.os.BinderProxy@51c685f@0
+06-03 13:52:39.503   557   601 V WindowManager: Finish Transition (#4): created at 06-03 13:52:39.178 collect-started=0.201ms request-sent=2.292ms started=3.497ms ready=29.479ms sent=30.52ms finished=323.992ms
+06-03 13:52:39.504   815   879 V WindowManagerShell: Track 0 became idle
+06-03 13:52:39.504   815   879 V WindowManagerShell: All active transition animations finished
+06-03 13:52:39.505   557   580 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:52:39.507   557   580 W UserManagerService: Requested status bar icon for non-badged user 0
+06-03 13:52:39.513  1223  1223 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+06-03 13:52:39.540  1895  1895 D nativeloader: Configuring clns-7 for other apk /data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/lib/arm64:/data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-03 13:52:39.540  1895  1895 D CompatChangeReporter: Compat change id reported: 202956589; UID 10163; state: ENABLED
+06-03 13:52:39.545  1895  1895 V GraphicsEnvironment: Currently set values for:
+06-03 13:52:39.545  1895  1895 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-03 13:52:39.545  1895  1895 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-03 13:52:39.545  1895  1895 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-03 13:52:39.545  1895  1895 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-03 13:52:39.562  1895  1895 D CompatChangeReporter: Compat change id reported: 279646685; UID 10163; state: ENABLED
+06-03 13:52:39.570   557   872 D CompatChangeReporter: Compat change id reported: 324203798; UID 10163; state: ENABLED
+06-03 13:52:39.571   557   665 D IntervalStats: Unable to parse usage stats packages: [174, 177]
+06-03 13:52:39.572   557   665 D IntervalStats: Unable to parse event packages: [177]
+06-03 13:52:39.572   557   665 D IntervalStats: Unable to parse usage stats packages: [177]
+06-03 13:52:39.573   557   665 D IntervalStats: Unable to parse usage stats packages: [187, 188, 189, 190, 192, 193]
+06-03 13:52:39.603  1895  1895 D CompatChangeReporter: Compat change id reported: 309578419; UID 10163; state: ENABLED
+06-03 13:52:39.629  1895  1895 W HWUI    : Unknown dataspace 0
+06-03 13:52:39.757  1895  1895 W u.poryadok5.app: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+06-03 13:52:39.787  1895  1900 I u.poryadok5.app: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+06-03 13:52:39.817   557   872 D CoreBackPreview: Window{1da5fed u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@10a0de9, mPriority=0, mIsAnimationCallback=false}
+06-03 13:52:39.851   407  1175 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10163 pid=0
+06-03 13:52:39.851   407  1175 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10163 => denied (277 us)
+06-03 13:52:39.851   407  1175 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10163 pid=0
+06-03 13:52:39.851   407  1175 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10163 => denied (239 us)
+06-03 13:52:39.851   407  1175 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10163 pid=0
+06-03 13:52:39.852   407  1175 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10163 => denied (227 us)
+06-03 13:52:39.852   407   633 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10163 pid=1895
+06-03 13:52:39.852   407   633 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10163 => denied (322 us)
+06-03 13:52:39.852  1895  1912 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-03 13:52:39.853  1895  1912 I EGL_emulation: Opening libGLESv2_emulation.so
+06-03 13:52:39.856  1895  1912 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-03 13:52:39.856  1895  1912 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-03 13:52:39.869   157   157 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-03 13:52:39.869  1895  1912 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+06-03 13:52:32.714   156   156 I servicemanager: Caller(pid=1895,uid=10163,sid=u:r:untrusted_app:s0:c163,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-03 13:52:39.894   557   872 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10163 pid=0
+06-03 13:52:39.894   557   872 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10163 => denied (90 us)
+06-03 13:52:39.894   557   872 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10163 pid=0
+06-03 13:52:39.894   557   872 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10163 => denied (7 us)
+06-03 13:52:39.894   557   872 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10163 pid=0
+06-03 13:52:39.894   557   872 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10163 => denied (6 us)
+06-03 13:52:39.918  1895  1923 D CompatChangeReporter: Compat change id reported: 312399441; UID 10163; state: ENABLED
+06-03 13:52:39.920   557   601 W ziparchive: Unable to open '/data/app/~~7CD-2P5SsndSh4xMixth1g==/ru.poryadok5.app-KXP9xA4_8snInz-J7swgig==/base.dm': No such file or directory
+06-03 13:52:39.921   557   601 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +743ms
+06-03 13:52:39.946  1223  1223 D BaseDepthController: setSurface:
+06-03 13:52:39.946  1223  1223 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+06-03 13:52:39.946  1223  1223 D BaseDepthController: 	mSurface: null
+06-03 13:52:39.946  1223  1223 D BaseDepthController: mSurface is null and mCurrentBlur is: 0
+06-03 13:52:39.946  1223  1223 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+06-03 13:52:39.946  1223  1223 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:453)
+06-03 13:52:39.946  1223  1223 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(StateManager.java:444)
+06-03 13:52:39.946  1223  1223 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(StatefulActivity.java:119)
+06-03 13:52:39.950  1223  1223 D StatsLog: LAUNCHER_ONSTOP
+06-03 13:52:39.950   557   580 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+06-03 13:52:39.956   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:39.956   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:39.956   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:40.173   557   695 I ImeTracker: ru.poryadok5.app:9ff728c9: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-03 13:52:40.173   557   695 I ImeTracker: ru.poryadok5.app:9ff728c9: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-03 13:52:40.315   815   993 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1b26017
+06-03 13:52:40.316   557   580 D CoreBackPreview: Window{83fb4e3 u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-03 13:52:40.316   557   872 W InputManager-JNI: Input channel object '83fb4e3 Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-03 13:52:40.325   364   364 I netd    : tetherGetStats() -> {[]} <0.30ms>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed App frame:UNKNOWN: 24, 3619, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 24, 3619, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missing HWUI jank callback for vsyncId: 3619, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 80, 3640, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missing HWUI jank callback for vsyncId: 3640, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 66, 3662, 116839302, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed App frame:UNKNOWN: 328, 3684, 173929261, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 80, 3708, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missing HWUI jank callback for vsyncId: 3708, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 80, 3723, 0, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missing HWUI jank callback for vsyncId: 3723, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed SF frame:UNKNOWN: 66, 3732, 41942977, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.367   815   993 W FrameTracker: Missed App frame:UNKNOWN: 328, 3747, 120839269, CUJ=J<SPLASHSCREEN_EXIT_ANIM>
+06-03 13:52:40.368   815   983 V PerfettoTrigger: Not triggering com.android.telemetry.interaction-jank-monitor-39 - not enough time since last trigger
+06-03 13:52:40.808   364  1839 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:40.957   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:40.957   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:40.958   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:41.250  1895  1912 D EGL_emulation: app_time_stats: avg=337.17ms min=3.79ms max=1035.08ms count=4
+06-03 13:52:41.345   557   676 D ActivityManager: freezing 1395 com.android.printspooler
+06-03 13:52:41.346   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:41.346   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:41.346   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10090} in 0ms
+06-03 13:52:41.960   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:41.961   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:41.961   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:42.184   557  1338 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-03 13:52:42.813   364  1836 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:42.813   364  1836 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+06-03 13:52:42.813   364  1837 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:42.813   364  1837 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+06-03 13:52:42.813   364  1840 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:42.813   364  1840 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+06-03 13:52:42.814   921  1202 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "connectivitycheck.gstatic.com": No address associated with hostname
+06-03 13:52:42.816   364  1283 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:42.816   364  1283 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+06-03 13:52:42.816   921  1200 D NetworkMonitor/100: PROBE_FALLBACK http://www.google.com/gen_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+06-03 13:52:42.967   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:42.968   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:42.968   557   580 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:43.274  1937  1937 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-03 13:52:43.276  1937  1937 I AndroidRuntime: Using default boot image
+06-03 13:52:43.276  1937  1937 I AndroidRuntime: Leaving lock profiling enabled
+06-03 13:52:43.277  1937  1937 I app_process: Core platform API reporting enabled, enforcing=false
+06-03 13:52:43.277  1937  1937 I app_process: Using CollectorTypeCMC GC.
+06-03 13:52:43.317  1937  1937 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-03 13:52:43.321  1937  1937 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:52:43.321  1937  1937 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-03 13:52:43.321  1937  1937 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-03 13:52:43.321  1937  1937 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:52:43.321  1937  1937 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-03 13:52:43.324  1937  1937 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-03 13:52:43.326  1937  1937 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-03 13:52:43.335  1937  1937 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-03 13:52:43.335  1937  1937 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-03 13:52:43.337  1937  1937 D UiAutomationConnection: Created on user UserHandle{0}
+06-03 13:52:43.337  1937  1937 I UiAutomation: Initialized for user 0 on display 0
+06-03 13:52:43.337  1937  1937 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-03 13:52:43.338   557   580 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-03 13:52:43.338   557   580 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-03 13:52:43.338   557   580 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-03 13:52:43.339  1937  1948 V UiAutomation: Init UiAutomation@9293e42[id=1, displayId=0, flags=0]
+06-03 13:52:43.340   557   557 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-03 13:52:43.340   557   647 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-03 13:52:43.341  1015  1101 D AccessibilitySourceService: enabled a11y services count 0
+06-03 13:52:43.341  1015  1101 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-03 13:52:43.343   557   850 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-03 13:52:43.970   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:43.970   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:43.971   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:44.385  1895  1912 D EGL_emulation: app_time_stats: avg=766.03ms min=4.59ms max=2971.55ms count=4
+06-03 13:52:44.437  1937  1937 W AccessibilityNodeInfoDumper: Fetch time: 88ms
+06-03 13:52:44.441   557   850 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-03 13:52:44.441   557   850 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-03 13:52:44.447   557   557 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-03 13:52:44.452  1937  1937 D AndroidRuntime: Shutting down VM
+06-03 13:52:44.974   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:44.974   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:44.974   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:45.148   557   610 D OomAdjuster: Not killing cached processes
+06-03 13:52:45.327  1952  1952 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-03 13:52:45.327  1952  1952 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-03 13:52:45.335   157   157 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-03 13:52:45.335  1952  1953 I Gralloc4: mapper 4.x is not supported
+06-03 13:52:38.180   156   156 I servicemanager: Caller(pid=1952,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-03 13:52:45.627  1895  1954 D ProfileInstaller: Installing profile for ru.poryadok5.app
+06-03 13:52:45.797   557   723 E WifiScoringParams: Invalid frequency(-1), using 5G as default rssi array
+06-03 13:52:45.814   364  1839 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:45.814   364  1839 I resolv  : doQuery: rcode=255, ancount=0, return value=-110
+06-03 13:52:45.815   921  1201 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.UnknownHostException: Unable to resolve host "www.google.com": No address associated with hostname
+06-03 13:52:45.815   921  1200 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=false Time=23030ms
+06-03 13:52:45.816   557   730 D ConnectivityService: [100 CELLULAR] validation failed
+06-03 13:52:45.976   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:45.976   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:45.977   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:45.995   557   786 I SdkSandboxManager: Reconciling sdk data package directories for 0
+06-03 13:52:46.256  1280  1291 W putmethod.latin: Cleared Reference was only reachable from finalizer (only reported once)
+06-03 13:52:46.819   921  1957 D TrafficStats: tagSocket(106) with statsTag=0xffffff81, statsUid=-1
+06-03 13:52:46.819   921  1956 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+06-03 13:52:46.819   921  1957 D TrafficStats: tagSocket(106) with statsTag=0xffffff81, statsUid=-1
+06-03 13:52:46.819   921  1956 D TrafficStats: tagSocket(5) with statsTag=0xffffff81, statsUid=-1
+06-03 13:52:46.820   364  1958 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+06-03 13:52:46.820   364  1959 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+06-03 13:52:46.820   364  1959 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:46.821   364  1958 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:46.823   364  1960 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+06-03 13:52:46.823   364  1961 I resolv  : ResNSendHandler::run: 0 / {100 983140 100 983140 1073 1}
+06-03 13:52:46.823   364  1960 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:46.823   364  1961 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:46.979   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:46.979   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:46.980   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:47.227   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.228   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.228   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10106} in 1ms
+06-03 13:52:47.228   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.228   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.228   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20106} in 0ms
+06-03 13:52:47.381   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.381   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.381   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10113} in 1ms
+06-03 13:52:47.381   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.382   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.382   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20113} in 0ms
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10101} in 0ms
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.712   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20101} in 0ms
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10130} in 0ms
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:47.950   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20130} in 0ms
+06-03 13:52:47.982   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:47.982   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:47.982   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10067} in 0ms
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.260   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20067} in 1ms
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10108} in 0ms
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.360   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20108} in 0ms
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10129} in 0ms
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.408   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20129} in 1ms
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10142} in 0ms
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.560   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20142} in 1ms
+06-03 13:52:48.626   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.627   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.627   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10061} in 0ms
+06-03 13:52:48.627   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:48.627   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:48.627   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={20061} in 0ms
+06-03 13:52:48.971   405   457 W GpuWork : Failed to attach bpf program to power/gpu_work_period tracepoint [2(No such file or directory)]
+06-03 13:52:48.985   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:48.985   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:48.985   557   647 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:49.069   364   364 I netd    : tetherGetStats() -> {[]} <0.92ms>
+06-03 13:52:49.180   557   676 D ActivityManager: freezing 1866 com.android.documentsui
+06-03 13:52:49.181   557   676 D ActivityManager: freezing 1785 com.android.externalstorage
+06-03 13:52:49.182   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:49.182   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:49.182   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10069} in 0ms
+06-03 13:52:49.196   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:49.196   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:49.196   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10076} in 1ms
+06-03 13:52:49.552   187  1858 I keystore2: system/security/keystore2/watchdog/src/lib.rs:319 - Watchdog thread idle -> terminating. Have a great day.
+06-03 13:52:49.565   557   645 D WifiNl80211Manager: Scan result ready event
+06-03 13:52:49.565   557   645 D WifiNative: Scan result ready event
+06-03 13:52:49.571   557   723 I HalDevMgr: bestIfaceCreationProposal is null, requestIface=STA, existingIface=[name=wlan0 type=STA]
+06-03 13:52:49.821   364  1963 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+06-03 13:52:49.821   364  1964 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+06-03 13:52:49.821   364  1964 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:49.821   364  1965 I resolv  : res_nmkquery: (QUERY, IN, A)
+06-03 13:52:49.824   364  1965 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:49.989   557   645 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:49.989   557   645 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:49.989   557   645 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:50.994   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:50.995   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:50.995   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:51.827   364  1958 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:51.827   364  1961 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:51.828   364  1959 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:51.828   364  1960 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:52.001   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:52.001   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:52.002   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:53.005   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:53.005   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:53.006   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:54.013   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:54.013   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:54.015   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:54.830   364  1964 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:54.834   364  1965 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:55.021   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:55.021   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:55.023   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:56.028   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:56.028   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:56.029   557   850 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:56.464   557   676 D ActivityManager: freezing 1436 com.android.traceur
+06-03 13:52:56.466   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:56.466   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:56.466   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10096} in 0ms
+06-03 13:52:56.807   557   676 D ActivityManager: freezing 1087 com.android.cellbroadcastreceiver.module
+06-03 13:52:56.808   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+06-03 13:52:56.808   557   730 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+06-03 13:52:56.808   557   730 D InetDiagMessage: Destroyed live tcp sockets for uids={10134} in 0ms
+06-03 13:52:56.829   364  1961 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:56.829   364  1960 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:56.830   921   921 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.830   921   921 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.832   364  1958 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:56.832   921   921 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.833   921  1957 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 10014ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.833   364  1959 I resolv  : res_nsend: used send_dg 0 terrno: 110
+06-03 13:52:56.833   921   921 W DnsResolver: resNetworkResult:android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.833   921  1956 D NetworkMonitor/100: PROBE_DNS www.google.com 10015ms FAIL in type ADDRCONFIG android.net.DnsResolver$DnsException: android.system.ErrnoException: resNetworkResult failed: ETIMEDOUT (Connection timed out)
+06-03 13:52:56.834   364  1966 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+06-03 13:52:56.834   364  1968 I resolv  : res_nmkquery: (QUERY, IN, A)
+06-03 13:52:56.834   364  1967 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+06-03 13:52:56.834   364  1967 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:56.835   364  1969 I resolv  : GetAddrInfoHandler::run: {100 983140 100 983140 1073 1}
+06-03 13:52:56.835   364  1970 I resolv  : res_nmkquery: (QUERY, IN, AAAA)
+06-03 13:52:56.835   364  1970 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:56.836   364  1971 I resolv  : res_nmkquery: (QUERY, IN, A)
+06-03 13:52:56.838   364  1968 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:56.839   364  1971 I resolv  : res_stats_usable_server: too many resolution errors, ignoring server
+06-03 13:52:56.868  1181  1187 W d.process.acore: ApkAssets: Deleting an ApkAssets object '<empty> and /product/priv-app/Contacts/Contacts.apk' with 1 weak references
+06-03 13:52:56.869   557   676 D ActivityManager: freezing 1499 .adservices
+06-03 13:52:57.031   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:57.032   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:57.032   557   872 W BestClock: java.time.DateTimeException: Missing network time fix
+06-03 13:52:49.899   170   170 I logd    : logdr: UID=2000 GID=2000 PID=1975 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns

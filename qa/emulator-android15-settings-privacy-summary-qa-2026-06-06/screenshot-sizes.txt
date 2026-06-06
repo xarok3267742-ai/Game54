@@ -1,0 +1,6 @@
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/06-settings.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-settings-privacy-summary-qa-2026-06-06/03-settings-privacy-summary.png
+  pixelWidth: 1080
+  pixelHeight: 2400

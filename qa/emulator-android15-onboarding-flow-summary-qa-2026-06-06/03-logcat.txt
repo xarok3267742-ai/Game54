@@ -1,0 +1,175 @@
+--------- beginning of main
+06-06 10:22:23.756   941   941 D PersistedStoragePackageUninstalledReceiver: Received android.intent.action.PACKAGE_DATA_CLEARED for ru.poryadok5.app for u0
+--------- beginning of system
+06-06 10:22:23.842   549   741 D ShortcutService: Saving package item com.android.launcher3 to /data/system_ce/0/shortcut_service/launchers/com.android.launcher30.xml
+06-06 10:22:23.881   549  1011 W ActivityTaskManager: callingPackage for (uid=2000, pid=3138) has no WPC
+06-06 10:22:23.881   549  1011 D CompatChangeReporter: Compat change id reported: 151861875; UID 10152; state: ENABLED
+06-06 10:22:23.881   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+06-06 10:22:23.882   549  1011 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10152, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 10:22:23.882   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+06-06 10:22:23.882   549  1011 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+06-06 10:22:23.884   549  1011 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-06 10:22:23.885   549  1011 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-06 10:22:23.885   782   865 V WindowManagerShell: Transition requested (#34): android.os.BinderProxy@54eb0d6 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=37 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=491409 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@7e6af57} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{aef5a44 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+06-06 10:22:23.885   549  1839 D CompatChangeReporter: Compat change id reported: 309578419; UID 10152; state: ENABLED
+06-06 10:22:23.886   549   574 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10152, packageName = null, attributionTag = null, token = android.os.Binder@be284ca, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+06-06 10:22:23.886   549   563 I AppsFilter: interaction: PackageSetting{bd7e395 ru.cisgame.colorquarter.debug/10148} -> PackageSetting{581f01 ru.poryadok5.app/10152} BLOCKED
+06-06 10:22:23.886   549   563 I AppsFilter: interaction: PackageSetting{87f1b77 com.fiftyfive.seconds.debug/10149} -> PackageSetting{581f01 ru.poryadok5.app/10152} BLOCKED
+06-06 10:22:23.886   549   563 I AppsFilter: interaction: PackageSetting{6849a50 com.fiftyfive.seconds.debug.test/10150} -> PackageSetting{581f01 ru.poryadok5.app/10152} BLOCKED
+06-06 10:22:23.886   406   406 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-06 10:22:23.887  1104  1104 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=37, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-06 10:22:23.893   782   948 D SplashScreenView: Build android.window.SplashScreenView{409a46b V.E...... ......ID 0,0-0,0}
+06-06 10:22:23.893   782   948 D SplashScreenView: Icon: view: android.widget.ImageView{df5cbc8 V.ED..... ......I. 0,0-0,0 #1020504 android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@a6ee461 size: 420
+06-06 10:22:23.893   782   948 D SplashScreenView: Branding: view: android.view.View{ed2fb86 G.ED..... ......I. 0,0-0,0 #1020503 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+06-06 10:22:23.893   549   723 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_UNSTOPPED on user 0
+06-06 10:22:23.893   549   723 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10152 package ru.poryadok5.app isStopped false
+06-06 10:22:23.897   360   360 D Zygote  : Forked child process 3141
+06-06 10:22:23.898   549   582 I ActivityManager: Start proc 3141:ru.poryadok5.app/u0a152 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 10:22:23.904   549  1839 D CoreBackPreview: Window{23a9b83 u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@65f4018, mPriority=0, mIsAnimationCallback=false}
+06-06 10:22:23.909  3141  3141 I u.poryadok5.app: Late-enabling -Xcheck:jni
+06-06 10:22:23.915   782  2492 V WindowManagerShell: onTransitionReady(transaction=2357937047382)
+06-06 10:22:23.919  3141  3141 I u.poryadok5.app: Using CollectorTypeCMC GC.
+06-06 10:22:23.921   782   865 V WindowManagerShell: onTransitionReady (#34) android.os.BinderProxy@54eb0d6: {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4c6460c} m=OPEN f=NONE leash=Surface(name=Task=37)/@0x516be99 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0bab55} m=TO_BACK f=NONE leash=Surface(name=Task=36)/@0xc17f55e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 10:22:23.921   782   865 V WindowManagerShell: Playing animation for (#34) android.os.BinderProxy@54eb0d6@0
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultMixedHandler@6de58d9
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.keyguard.KeyguardTransitionHandler@c94229e
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.pip.PipTransition@1d3117f
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.activityembedding.ActivityEmbeddingController@d6d554c
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.recents.RecentsTransitionHandler@c52a995
+06-06 10:22:23.921   782   865 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.splitscreen.StageCoordinator@d1bcaaa
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.RemoteTransitionHandler@611469b
+06-06 10:22:23.921   782   865 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4c6460c} m=OPEN f=NONE leash=Surface(name=Task=37)/@0x516be99 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0bab55} m=TO_BACK f=NONE leash=Surface(name=Task=36)/@0xc17f55e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 10:22:23.921   782   865 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@fc07a38, appThread = android.app.IApplicationThread$Stub$Proxy@9814a11, debugName = QuickstepLaunchHome }}
+06-06 10:22:23.921   782   865 V WindowManagerShell:  Delegate animation for (#34) to null
+06-06 10:22:23.921   782   865 V WindowManagerShell:  try handler com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+06-06 10:22:23.921   782   865 V WindowManagerShell: start default transition animation, info = {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@4c6460c} m=OPEN f=NONE leash=Surface(name=Task=37)/@0x516be99 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b0bab55} m=TO_BACK f=NONE leash=Surface(name=Task=36)/@0xc17f55e sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}]}
+06-06 10:22:23.922   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@97b6f8 animAttr=0x9 type=OPEN isEntrance=false
+06-06 10:22:23.922   782   865 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@f175236 animAttr=0x8 type=OPEN isEntrance=true
+06-06 10:22:23.923   549   571 V WindowManager: Sent Transition (#34) createdAt=06-06 10:22:23.882 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=37 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=491409 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{dfc942e Task{d119ef6 #37 type=standard A=10152:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{3454bcf ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+06-06 10:22:23.923   549   571 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+06-06 10:22:23.923   549   571 V WindowManager:     info={id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+06-06 10:22:23.923   549   571 V WindowManager:         {WCT{RemoteToken{dfc942e Task{d119ef6 #37 type=standard A=10152:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=37)/@0x41445c4 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 10:22:23.923   549   571 V WindowManager:         {WCT{RemoteToken{5e5c33f Task{19716d9 #36 type=standard A=10151:com.fiftyfive.seconds}}} m=TO_BACK f=NONE leash=Surface(name=Task=36)/@0xdaec986 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+06-06 10:22:23.923   549   571 V WindowManager:     ]}
+06-06 10:22:23.923   782   865 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@ac3e776
+06-06 10:22:23.929   549   563 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 10:22:23.937   782   865 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#34) android.os.BinderProxy@54eb0d6@0
+06-06 10:22:23.938  2618  2618 D VRI[MainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+06-06 10:22:23.938   549   571 V WindowManager: Finish Transition (#34): created at 06-06 10:22:23.882 collect-started=0.03ms request-sent=2.62ms started=3.157ms ready=31.602ms sent=32.308ms finished=55.402ms
+06-06 10:22:23.944   411   451 I adbd    : jdwp connection from 3141
+06-06 10:22:23.945   782   865 V WindowManagerShell: Track 0 became idle
+06-06 10:22:23.945   782   865 V WindowManagerShell: All active transition animations finished
+06-06 10:22:23.947   549  1839 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 10:22:23.949   549  1839 W UserManagerService: Requested status bar icon for non-badged user 0
+06-06 10:22:23.949  3141  3141 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 10:22:23.964   782   798 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~LGIQPKyVPxeyBoiXRM-Dsw==/com.fiftyfive.seconds.debug.test-GuGiyi-BN_CyvCisL1L3Kw==/base.apk' with 2 weak references
+06-06 10:22:23.964   782   798 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~6JjOqC8bbtG-yEEH-ZwT0g==/com.fiftyfive.seconds.debug-qN_qXCZ0HjnkZ5vgidO21A==/base.apk' with 1 weak references
+06-06 10:22:23.966   782   798 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~fG3uGvH1txjAxpq2iZyGDw==/com.fiftyfive.seconds-Cksh3iQadpW_C85FE-HsDQ==/base.apk' with 1 weak references
+06-06 10:22:23.975  3141  3141 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+06-06 10:22:23.975  3141  3141 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+06-06 10:22:23.976  3141  3141 W ziparchive: Unable to open '/data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/base.dm': No such file or directory
+06-06 10:22:23.976  3141  3141 W ziparchive: Unable to open '/data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/base.dm': No such file or directory
+06-06 10:22:24.153  3141  3141 D nativeloader: Configuring clns-7 for other apk /data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/lib/arm64:/data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-06 10:22:24.154  3141  3141 D CompatChangeReporter: Compat change id reported: 202956589; UID 10152; state: ENABLED
+06-06 10:22:24.159  3141  3141 V GraphicsEnvironment: Currently set values for:
+06-06 10:22:24.159  3141  3141 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+06-06 10:22:24.159  3141  3141 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+06-06 10:22:24.159  3141  3141 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+06-06 10:22:24.159  3141  3141 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+06-06 10:22:24.172  3141  3141 D CompatChangeReporter: Compat change id reported: 279646685; UID 10152; state: ENABLED
+06-06 10:22:24.176   549  1017 D CompatChangeReporter: Compat change id reported: 324203798; UID 10152; state: ENABLED
+06-06 10:22:24.199  3141  3141 D CompatChangeReporter: Compat change id reported: 309578419; UID 10152; state: ENABLED
+06-06 10:22:24.228  3141  3141 W HWUI    : Unknown dataspace 0
+06-06 10:22:24.370  3141  3141 W u.poryadok5.app: Accessing hidden method Landroid/os/SystemProperties;->addChangeCallback(Ljava/lang/Runnable;)V (unsupported, reflection, allowed)
+06-06 10:22:24.386  3141  3146 I u.poryadok5.app: Compiler allocated 5250KB to compile void android.view.ViewRootImpl.performTraversals()
+06-06 10:22:24.422   549  1017 D CoreBackPreview: Window{f6fb342 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@649c18e, mPriority=0, mIsAnimationCallback=false}
+06-06 10:22:24.457   406   503 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10152 pid=0
+06-06 10:22:24.457   406   503 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10152 => denied (576 us)
+06-06 10:22:24.457   406  1291 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10152 pid=3141
+06-06 10:22:24.457   406  1291 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10152 => denied (371 us)
+06-06 10:22:24.457   406  1291 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10152 pid=3141
+06-06 10:22:24.457   406  1291 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10152 => denied (297 us)
+06-06 10:22:24.458   406   503 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10152 pid=0
+06-06 10:22:24.458   406   503 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10152 => denied (577 us)
+06-06 10:22:24.458   406  1291 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10152 pid=3141
+06-06 10:22:24.458   406  1291 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10152 => denied (289 us)
+06-06 10:22:24.458   406   503 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10152 pid=0
+06-06 10:22:24.458   406   503 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10152 => denied (271 us)
+06-06 10:22:24.460  3141  3157 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+06-06 10:22:24.460  3141  3157 I EGL_emulation: Opening libGLESv2_emulation.so
+06-06 10:22:24.465  3141  3157 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+06-06 10:22:24.466  3141  3157 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+06-06 10:22:24.477   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 10:22:24.477  3141  3157 I Gralloc4: mapper 4.x is not supported
+--------- beginning of kernel
+06-06 10:22:24.478   162   162 I servicemanager: Caller(pid=3141,uid=10152,sid=u:r:untrusted_app:s0:c152,c256,c512,c768) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.
+06-06 10:22:24.508   549  1017 W ServiceManagerCppClient: Permission failure: android.permission.ACCESS_SURFACE_FLINGER from uid=10152 pid=0
+06-06 10:22:24.508   549  1017 D PermissionCache: checking android.permission.ACCESS_SURFACE_FLINGER for uid=10152 => denied (73 us)
+06-06 10:22:24.508   549  1017 W ServiceManagerCppClient: Permission failure: android.permission.ROTATE_SURFACE_FLINGER from uid=10152 pid=0
+06-06 10:22:24.508   549  1017 D PermissionCache: checking android.permission.ROTATE_SURFACE_FLINGER for uid=10152 => denied (8 us)
+06-06 10:22:24.508   549  1017 W ServiceManagerCppClient: Permission failure: android.permission.INTERNAL_SYSTEM_WINDOW from uid=10152 pid=0
+06-06 10:22:24.508   549  1017 D PermissionCache: checking android.permission.INTERNAL_SYSTEM_WINDOW for uid=10152 => denied (4 us)
+06-06 10:22:24.514  3141  3165 D CompatChangeReporter: Compat change id reported: 312399441; UID 10152; state: ENABLED
+06-06 10:22:24.526   549   571 W ziparchive: Unable to open '/data/app/~~cUWrA2O4Zrg9aHSkeX0zew==/ru.poryadok5.app-TkPu0aQrfzSRbmW76HseWQ==/base.dm': No such file or directory
+06-06 10:22:24.527   549   571 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +645ms
+06-06 10:22:24.571   782   942 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@a7fdc74
+06-06 10:22:24.575   549  1011 D CoreBackPreview: Window{23a9b83 u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-06 10:22:24.575   549   563 W InputManager-JNI: Input channel object '23a9b83 Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-06 10:22:24.675   549   660 I ImeTracker: ru.poryadok5.app:cd429561: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-06 10:22:24.675   549   660 I ImeTracker: ru.poryadok5.app:cd429561: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 10:22:25.949  3174  3174 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 10:22:25.951  3174  3174 I AndroidRuntime: Using default boot image
+06-06 10:22:25.951  3174  3174 I AndroidRuntime: Leaving lock profiling enabled
+06-06 10:22:25.952  3174  3174 I app_process: Core platform API reporting enabled, enforcing=false
+06-06 10:22:25.952  3174  3174 I app_process: Using CollectorTypeCMC GC.
+06-06 10:22:25.984  3174  3174 D nativeloader: InitDefaultPublicLibraries for_preload=1: libandroid.so:libaaudio.so:libamidi.so:libbinder_ndk.so:libc.so:libcamera2ndk.so:libdl.so:libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libicu.so:libicui18n.so:libicuuc.so:libjnigraphics.so:liblog.so:libmediandk.so:libm.so:libnativehelper.so:libnativewindow.so:libOpenMAXAL.so:libOpenSLES.so:libRS.so:libstdc++.so:libsync.so:libvulkan.so:libwebviewchromium_plat_support.so:libz.so
+06-06 10:22:25.987  3174  3174 D nativeloader: Load libicu_jni.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 10:22:25.987  3174  3174 D app_process: u_setTimeZoneFilesDirectory("/apex/com.android.tzdata/etc/tz/versioned/8/icu") succeeded. 
+06-06 10:22:25.987  3174  3174 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt75l.dat
+06-06 10:22:25.988  3174  3174 D nativeloader: Load libjavacore.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 10:22:25.988  3174  3174 D nativeloader: Load libopenjdk.so using APEX ns com_android_art for caller /apex/com.android.art/javalib/core-oj.jar: ok
+06-06 10:22:25.989  3174  3174 W app_process: ClassLoaderContext shared library size mismatch. Expected=2, found=0 (PCL[]{PCL[/system/framework/android.test.base.jar*724373495]#PCL[/system/framework/android.test.mock.jar*1452759902]} | PCL[])
+06-06 10:22:25.990  3174  3174 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[]{PCL[/system/framework/android.test.runner.jar*2496447986]#PCL[/system/framework/android.test.base.jar*724373495]} | PCL[/system/framework/android.test.runner.jar*2496447986])
+06-06 10:22:25.997  3174  3174 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+06-06 10:22:25.997  3174  3174 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 10:22:25.998  3174  3174 D UiAutomationConnection: Created on user UserHandle{0}
+06-06 10:22:25.998  3174  3174 I UiAutomation: Initialized for user 0 on display 0
+06-06 10:22:25.998  3174  3174 W UiAutomation: Created with deprecatead constructor, assumes DEFAULT_DISPLAY
+06-06 10:22:25.999   549   563 D AccessibilityManagerService: changeCurrentUserForTestAutomationIfNeededLocked(0): ignoring because device doesn't support visible background users
+06-06 10:22:25.999   549   563 I UiAutomationManager: Registering UiTestAutomationService (id=com.android.server.accessibility/UiAutomation, flags=0x0) when called by user 0
+06-06 10:22:26.000   549   563 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 10:22:26.000   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.001   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.001   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.001  3174  3185 V UiAutomation: Init UiAutomation@99a9808[id=19, displayId=0, flags=0]
+06-06 10:22:26.001   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.001   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.001   549   822 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 10:22:26.001   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.002   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.002   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.002   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.002   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:26.002   549   549 D BatterySaverPolicy: accessibility changed to true, updating policy.
+06-06 10:22:26.004   941  1070 D AccessibilitySourceService: enabled a11y services count 0
+06-06 10:22:26.004   941  1070 D AccessibilitySourceService: a11y source sending 0 issue to sc
+06-06 10:22:26.005   549  2548 D SafetySourceDataValidat: No cert check requested for package com.android.permissioncontroller
+06-06 10:22:26.887   549  1254 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-06 10:22:27.022  3141  3157 D EGL_emulation: app_time_stats: avg=838.23ms min=74.11ms max=2338.35ms count=3
+06-06 10:22:27.046  3174  3174 W AccessibilityNodeInfoDumper: Fetch time: 42ms
+06-06 10:22:27.048   549   817 W MagnificationConnectionManager: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+06-06 10:22:27.048   549   817 D AccessibilityManagerService: restoreCurrentUserForTestAutomationIfNeededLocked(): ignoring because device doesn't support visible background users
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 W IPCThreadState: Sending oneway calls to frozen process.
+06-06 10:22:27.048   549   549 D BatterySaverPolicy: accessibility changed to false, updating policy.
+06-06 10:22:27.049  3174  3174 D AndroidRuntime: Shutting down VM
+06-06 10:22:27.900  3189  3189 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-06 10:22:27.901  3189  3189 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-06 10:22:27.906   163   163 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@4.0::IMapper/default in either framework or device VINTF manifest.
+06-06 10:22:27.906  3189  3190 I Gralloc4: mapper 4.x is not supported
+06-06 10:22:27.907   162   162 I servicemanager: Caller(pid=3189,uid=2000,sid=u:r:shell:s0) Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest. No alternative instances declared in VINTF.

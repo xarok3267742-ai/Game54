@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{d35220c u0 com.andrejivliev.fiftyfive/com.andrejivliev.fiftyfive.MainActivity}
+  mFocusedApp=ActivityRecord{d50b7b4 u0 com.andrejivliev.fiftyfive/.MainActivity t290}

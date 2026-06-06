@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{7a8708 u0 com.fiftyfive.seconds.debug/com.fiftyfive.seconds.MainActivity}
+  mFocusedApp=ActivityRecord{af769f0 u0 com.fiftyfive.seconds.debug/com.fiftyfive.seconds.MainActivity t95}

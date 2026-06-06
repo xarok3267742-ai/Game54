@@ -1,0 +1,35 @@
+3:  * Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+6:    topResumedActivity=ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+7:    * Hist  #0: ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+8:      packageName=ru.poryadok5.app processName=ru.poryadok5.app
+10:      app=ProcessRecord{d155ef0 3291:ru.poryadok5.app/u0a210}
+11:      Intent { flg=0x10000000 xflg=0x1 cmp=ru.poryadok5.app/.MainActivity }
+12:      rootOfTask=true task=Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app}
+13:      taskAffinity=10210:ru.poryadok5.app
+14:      mActivityComponent=ru.poryadok5.app/.MainActivity
+15:      baseDir=/data/app/~~hLebpI1sSmhyAE1c0rptfQ==/ru.poryadok5.app--zHBDuqaMZqJOskIqWM5KA==/base.apk
+16:      dataDir=/data/user/0/ru.poryadok5.app
+35:      windows=[Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}]
+118:    Resumed: ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+120:  ResumedActivity: ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+123:  topDisplayFocusedRootTask=Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app}
+128:  deepestLastOrientationSource=ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+131:  mCurrentFocus=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+132:  mFocusedApp=ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+135:  mObscuringWindow=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+198:      mPreferredTopFocusableRootTask=Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app}
+199:      mLastFocusedRootTask=Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app}
+201:      * Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+203:        * ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}
+248:    mFocusedWindow=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+249:    mTopFullscreenOpaqueWindowState=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+250:    mSystemBarColorApps={ActivityRecord{100076310 u0 ru.poryadok5.app/.MainActivity t6}}
+251:    mNavBarColorWindowCandidate=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+252:    mNavBarBackgroundWindowCandidate=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+257:      Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+339:      Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}:
+375:        mControlTarget=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+394:        mControlTarget=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+403:        mControlTarget=Window{b4d1f7b u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+434:        (fullscreen) Task{8949c97 #6 type=standard A=10210:ru.poryadok5.app}
+436:  VisibleActivityProcess:[ ProcessRecord{d155ef0 3291:ru.poryadok5.app/u0a210}]

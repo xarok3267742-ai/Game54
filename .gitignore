@@ -1,0 +1,22 @@
+.gradle/
+.kotlin/
+build/
+build */
+app/build/
+app/build */
+local.properties
+play-submission [0-9]*/
+*.iml
+.idea/
+.DS_Store
+captures/
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+signing.properties
+.env
+.env.*

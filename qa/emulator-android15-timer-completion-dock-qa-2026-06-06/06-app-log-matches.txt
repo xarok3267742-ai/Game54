@@ -1,0 +1,278 @@
+06-06 04:12:31.132   553  1797 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-06 04:12:31.133   553  1797 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-06 04:12:31.133   786   830 V WindowManagerShell: Transition requested (#18): android.os.BinderProxy@3db710b TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=563 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=342829 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@a62abe8} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{9d41201 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 18 }
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{3231eea com.sevenkards.app.debug.test/10158} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{1f08878 com.andrejivliev.mosaic59.debug/10166} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{1cedb51 com.roxbox.solpair/10149} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{d8c3fb6 de.wettblick.app/10162} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{ce4c4b7 ru.cisgame.colorquarter.debug/10156} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{de1b424 com.casi.casino/10153} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{5d4db8d com.route53.game.debug/10159} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{d76f553 com.andrejivliev.marketguide.debug/10148} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{b97ee90 com.sevenkards.app.debug/10157} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{dc0a389 com.andrej.cars4096/10151} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{1cf8f8e com.mellstory.airlines/10154} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{8f193af com.apuestalatam.guia.debug/10160} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{23563bc com.apuestalatam.guia.debug.test/10161} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.135   553  1797 I AppsFilter: interaction: PackageSetting{486ef45 com.sevenk.app/10150} -> PackageSetting{e894202 ru.poryadok5.app/10168} BLOCKED
+06-06 04:12:31.136  1078  1078 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=563, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-06 04:12:31.139   553   730 I AppWidgetServiceImpl: Updating package stopped masked state for uid 10168 package ru.poryadok5.app isStopped false
+06-06 04:12:31.142   553  3202 D CoreBackPreview: Window{5215d50 u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7090f5a, mPriority=0, mIsAnimationCallback=false}
+06-06 04:12:31.144   553   585 I ActivityManager: Start proc 3751:ru.poryadok5.app/u0a168 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 04:12:31.161   553   574 V WindowManager: Sent Transition (#18) createdAt=06-06 04:12:31.129 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=563 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=342829 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5a2fb2 Task{1481a77 #563 type=standard A=10168:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{69abb03 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 18 }
+06-06 04:12:31.161   553   574 V WindowManager:         {WCT{RemoteToken{5a2fb2 Task{1481a77 #563 type=standard A=10168:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=563)/@0x4c38668 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 04:12:31.217  3751  3751 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:12:31.217  3751  3751 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:12:31.390  3751  3751 D nativeloader: Configuring clns-7 for other apk /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/lib/arm64:/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-06 04:12:31.625   553   619 D CoreBackPreview: Window{2d9e962 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@5f139ae, mPriority=0, mIsAnimationCallback=false}
+06-06 04:12:31.697   553   574 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:12:31.697   553   574 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +568ms
+06-06 04:12:31.712   553   619 D CoreBackPreview: Window{5215d50 u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-06 04:12:31.712   553   619 W InputManager-JNI: Input channel object '5215d50 Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-06 04:12:31.730   553   668 I ImeTracker: ru.poryadok5.app:cf5a7a28: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-06 04:12:31.730   553   668 I ImeTracker: ru.poryadok5.app:cf5a7a28: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 04:12:37.185  3751  3781 D ProfileInstaller: Installing profile for ru.poryadok5.app
+06-06 04:12:46.109  3787  3787 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:12:46.111  3787  3787 I AndroidRuntime: Using default boot image
+06-06 04:12:46.111  3787  3787 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:12:46.157  3787  3787 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:12:47.219  3787  3787 D AndroidRuntime: Shutting down VM
+06-06 04:12:58.909  3813  3813 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:12:58.910  3813  3813 I AndroidRuntime: Using default boot image
+06-06 04:12:58.910  3813  3813 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:12:58.950  3813  3813 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:12:59.980  3813  3813 D AndroidRuntime: Shutting down VM
+06-06 04:13:02.575  3838  3838 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:02.576  3838  3838 I AndroidRuntime: Using default boot image
+06-06 04:13:02.576  3838  3838 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:02.615  3838  3838 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:03.642  3838  3838 D AndroidRuntime: Shutting down VM
+06-06 04:13:06.230  3863  3863 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:06.232  3863  3863 I AndroidRuntime: Using default boot image
+06-06 04:13:06.232  3863  3863 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:06.270  3863  3863 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:07.308  3863  3863 D AndroidRuntime: Shutting down VM
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{3231eea com.sevenkards.app.debug.test/10158} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{1f08878 com.andrejivliev.mosaic59.debug/10166} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{1cedb51 com.roxbox.solpair/10149} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{d8c3fb6 de.wettblick.app/10162} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{ce4c4b7 ru.cisgame.colorquarter.debug/10156} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{de1b424 com.casi.casino/10153} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{5d4db8d com.route53.game.debug/10159} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{d76f553 com.andrejivliev.marketguide.debug/10148} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{b97ee90 com.sevenkards.app.debug/10157} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.310   553   570 I AppsFilter: interaction: PackageSetting{dc0a389 com.andrej.cars4096/10151} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.311   553   570 I AppsFilter: interaction: PackageSetting{1cf8f8e com.mellstory.airlines/10154} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.311   553   570 I AppsFilter: interaction: PackageSetting{8f193af com.apuestalatam.guia.debug/10160} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.311   553   570 I AppsFilter: interaction: PackageSetting{23563bc com.apuestalatam.guia.debug.test/10161} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.311   553   570 I AppsFilter: interaction: PackageSetting{486ef45 com.sevenk.app/10150} -> PackageSetting{98897d7 ru.poryadok5.app/10168} BLOCKED
+06-06 04:13:15.312   553   609 I ActivityManager: Killing 3751:ru.poryadok5.app/u0a168 (adj 0): change ru.poryadok5.app
+06-06 04:13:15.313   553   609 W ActivityTaskManager: Force removing ActivityRecord{345476 u0 ru.poryadok5.app/.MainActivity t563}: app died, no saved state
+06-06 04:13:15.316   786   830 V WindowManagerShell: Transition requested (#19): android.os.BinderProxy@456e4ec TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=563 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=343106 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d4790b5} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{68df34a ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 19 }
+06-06 04:13:15.319   553   609 I WindowManager:   Force finishing ActivityRecord{345476 u0 ru.poryadok5.app/.MainActivity t563 f} isExiting}
+06-06 04:13:15.319   553   609 W ActivityTaskManager: Duplicate finish request for r=ActivityRecord{345476 u0 ru.poryadok5.app/.MainActivity t563 f} isExiting}
+06-06 04:13:15.322   553   696 D WifiService: Remove settings for package:ru.poryadok5.app
+06-06 04:13:15.322   553   696 D WifiConfigManager: Remove all networks for app ApplicationInfo{d25fc5c ru.poryadok5.app}
+06-06 04:13:15.322   553   696 I PasspointManager: No app ops listener found for ru.poryadok5.app
+06-06 04:13:15.323   553   844 V ActivityManager: Got obituary of 3751:ru.poryadok5.app
+06-06 04:13:15.323   553   752 D ShortcutService: changing package: ru.poryadok5.app userId0
+06-06 04:13:15.323   553  3653 I WindowManager: WIN DEATH: Window{2d9e962 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 04:13:15.323   553  3653 W InputManager-JNI: Input channel object '2d9e962 ru.poryadok5.app/ru.poryadok5.app.MainActivity (client)' was disposed without first being removed with the input manager!
+06-06 04:13:15.324  1078  1102 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[ru.poryadok5.app]
+06-06 04:13:15.324   553   752 D ShortcutService: handlePackageRemoved: ru.poryadok5.app user=0
+06-06 04:13:15.326   553  1002 I ImeTracker: ru.poryadok5.app:76d4475b: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+06-06 04:13:15.327   553  1002 I ImeTracker: ru.poryadok5.app:76d4475b: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 04:13:15.330   911   911 D CarrierSvcBindHelper: onPackageModified: ru.poryadok5.app
+06-06 04:13:15.335  1078  1102 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=ru.poryadok5.app
+06-06 04:13:15.335  1078  1102 D PackageUpdatedTask: OP_UPDATE - AllAppsList.trackRemoves callback: removed component=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} id=-1 Look for earlier AllAppsList logs to find more information.
+06-06 04:13:15.338  1078  1102 D PackageUpdatedTask: OP_UPDATE: package ru.poryadok5.app is disabled, removing package.
+06-06 04:13:15.338  1078  1102 D ModelWriter: removing items from db . Reason: [removed because the corresponding package or component is removed. mOp=2 removedPackages=[ru.poryadok5.app] removedComponents=[{ru.poryadok5.app/ru.poryadok5.app.MainActivity}]]
+06-06 04:13:15.343   553   578 W ActivityTaskManager: Unable to send transaction to client proc ru.poryadok5.app: no app thread
+06-06 04:13:15.357   911  1034 D ImsResolver: maybeAddedImsService, packageName: ru.poryadok5.app
+06-06 04:13:15.362   553   574 V WindowManager: Sent Transition (#19) createdAt=06-06 04:13:15.316 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=563 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=343106 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5a2fb2 Task{1481a77 #563 type=standard A=10168:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{69abb03 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 19 }
+06-06 04:13:15.362   553   574 V WindowManager:         {WCT{RemoteToken{5a2fb2 Task{1481a77 #563 type=standard A=10168:ru.poryadok5.app}}} m=CLOSE f=NONE leash=Surface(name=Task=563)/@0x4c38668 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 04:13:15.380   553   888 W WindowManager: Exception thrown during dispatchAppVisibility Window{2d9e962 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity EXITING}
+06-06 04:13:17.791   553   609 I AppsFilter: interaction: PackageSetting{98897d7 ru.poryadok5.app/10168} -> PackageSetting{6f3a60f com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:17.813   553   553 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{cc3c1a7 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:19.522   553  1002 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{cc3c1a7 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:19.546   553   609 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{cc3c1a7 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:19.547   553   609 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{cc3c1a7 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:20.781   553  1002 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{cc3c1a7 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:21.052   553   888 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{ede5d1b com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:23.130  4002  4002 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:23.132  4002  4002 I AndroidRuntime: Using default boot image
+06-06 04:13:23.132  4002  4002 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:23.181  4002  4002 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:24.200  4002  4002 D AndroidRuntime: Shutting down VM
+06-06 04:13:25.888  4023  4023 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:25.890  4023  4023 I AndroidRuntime: Using default boot image
+06-06 04:13:25.890  4023  4023 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:25.934  4023  4023 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:26.951  4023  4023 D AndroidRuntime: Shutting down VM
+06-06 04:13:28.063  4044  4044 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:28.065  4044  4044 I AndroidRuntime: Using default boot image
+06-06 04:13:28.065  4044  4044 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:28.110  4044  4044 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:29.124  4044  4044 D AndroidRuntime: Shutting down VM
+06-06 04:13:30.014  4060  4060 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:30.016  4060  4060 I AndroidRuntime: Using default boot image
+06-06 04:13:30.016  4060  4060 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:30.056  4060  4060 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:31.068  4060  4060 D AndroidRuntime: Shutting down VM
+06-06 04:13:32.455  4076  4076 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:32.457  4076  4076 I AndroidRuntime: Using default boot image
+06-06 04:13:32.457  4076  4076 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:32.499  4076  4076 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:33.514  4076  4076 D AndroidRuntime: Shutting down VM
+06-06 04:13:34.397  4092  4092 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:34.398  4092  4092 I AndroidRuntime: Using default boot image
+06-06 04:13:34.398  4092  4092 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:34.436  4092  4092 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:35.459  4092  4092 D AndroidRuntime: Shutting down VM
+06-06 04:13:35.750   553   888 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{f0371a com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:35.800   553   898 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+06-06 04:13:35.874   786   792 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk' with 1 weak references
+06-06 04:13:36.865  4130  4130 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:36.867  4130  4130 I AndroidRuntime: Using default boot image
+06-06 04:13:36.867  4130  4130 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:36.909  4130  4130 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:37.924  4130  4130 D AndroidRuntime: Shutting down VM
+06-06 04:13:38.804   553   889 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{c587082 com.qgrid.mobile/10170} BLOCKED
+06-06 04:13:39.877  4179  4179 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:39.879  4179  4179 I AndroidRuntime: Using default boot image
+06-06 04:13:39.879  4179  4179 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:39.919  4179  4179 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:40.945  4179  4179 D AndroidRuntime: Shutting down VM
+06-06 04:13:41.858  4195  4195 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:41.859  4195  4195 I AndroidRuntime: Using default boot image
+06-06 04:13:41.859  4195  4195 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:41.896  4195  4195 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:42.910  4195  4195 D AndroidRuntime: Shutting down VM
+06-06 04:13:44.300  4212  4212 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:44.302  4212  4212 I AndroidRuntime: Using default boot image
+06-06 04:13:44.302  4212  4212 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:44.342  4212  4212 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:45.359  4212  4212 D AndroidRuntime: Shutting down VM
+06-06 04:13:46.240  4229  4229 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:46.242  4229  4229 I AndroidRuntime: Using default boot image
+06-06 04:13:46.242  4229  4229 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:46.284  4229  4229 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:47.030  3243  3244 I artd    : Dex parent of /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk is not writable: Permission denied
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking odex in dalvik-cache (/data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex)
+06-06 04:13:47.030  3243  3244 I artd    : Loading /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex with executable: 0
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking odex next to the dex file (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex)
+06-06 04:13:47.030  3243  3244 I artd    : Loading /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex with executable: 0
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking vdex in dalvik-cache (/data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex)
+06-06 04:13:47.030  3243  3244 I artd    : unable to open vdex file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking vdex next to the dex file (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex)
+06-06 04:13:47.030  3243  3244 I artd    : unable to open vdex file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking dm (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm)
+06-06 04:13:47.030  3243  3244 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm: I/O error
+06-06 04:13:47.030  3243  3244 I artd    : GetBestInfo checking dm (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm)
+06-06 04:13:47.030  3243  3244 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:13:47.030  3243  3244 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm: I/O error
+06-06 04:13:47.304  4229  4229 D AndroidRuntime: Shutting down VM
+06-06 04:13:48.692  4258  4258 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:48.694  4258  4258 I AndroidRuntime: Using default boot image
+06-06 04:13:48.694  4258  4258 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:48.733  4258  4258 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:49.746  4258  4258 D AndroidRuntime: Shutting down VM
+06-06 04:13:50.621  4274  4274 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:50.623  4274  4274 I AndroidRuntime: Using default boot image
+06-06 04:13:50.623  4274  4274 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:50.659  4274  4274 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:51.670  4274  4274 D AndroidRuntime: Shutting down VM
+06-06 04:13:53.056  4290  4290 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:53.058  4290  4290 I AndroidRuntime: Using default boot image
+06-06 04:13:53.058  4290  4290 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:53.098  4290  4290 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:54.110  4290  4290 D AndroidRuntime: Shutting down VM
+06-06 04:13:54.996  4306  4306 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:54.998  4306  4306 I AndroidRuntime: Using default boot image
+06-06 04:13:54.998  4306  4306 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:55.037  4306  4306 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:56.065  4306  4306 D AndroidRuntime: Shutting down VM
+06-06 04:13:57.482  4322  4322 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:57.484  4322  4322 I AndroidRuntime: Using default boot image
+06-06 04:13:57.484  4322  4322 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:57.524  4322  4322 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:13:57.672   553   620 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 result code=-92
+06-06 04:13:58.536  4322  4322 D AndroidRuntime: Shutting down VM
+06-06 04:13:59.413  4343  4343 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:13:59.415  4343  4343 I AndroidRuntime: Using default boot image
+06-06 04:13:59.415  4343  4343 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:13:59.452  4343  4343 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+06-06 04:14:00.468  4343  4343 D AndroidRuntime: Shutting down VM
+06-06 04:14:03.495   553  3202 I AppsFilter: interaction: PackageSetting{adc503e ru.poryadok5.app/10168} -> PackageSetting{9cefc86 com.qgrid.mobile/10170} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{c265a66 com.sevenkards.app.debug.test/10158} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{2848654 com.andrejivliev.mosaic59.debug/10166} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{c52f9fd com.roxbox.solpair/10149} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{e2db6f2 de.wettblick.app/10162} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{860d143 ru.cisgame.colorquarter.debug/10156} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{dcdb3c0 com.casi.casino/10153} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{3da38f9 com.route53.game.debug/10159} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{e353e9f com.andrejivliev.marketguide.debug/10148} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{3ba4bec com.sevenkards.app.debug/10157} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{dfc6bb5 com.andrej.cars4096/10151} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{49324a com.mellstory.airlines/10154} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{bb925bb com.apuestalatam.guia.debug/10160} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{f63ad8 com.apuestalatam.guia.debug.test/10161} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.549   553   898 I AppsFilter: interaction: PackageSetting{9d50e31 com.sevenk.app/10150} -> PackageSetting{5959336 ru.poryadok5.app/10168} BLOCKED
+06-06 04:14:03.556  1078  1102 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[ru.poryadok5.app]
+06-06 04:14:03.558   911   911 D CarrierSvcBindHelper: onPackageModified: ru.poryadok5.app
+06-06 04:14:03.559   553   752 D ShortcutService: changing package: ru.poryadok5.app userId0
+06-06 04:14:03.559   553   752 D ShortcutService: handlePackageChanged: ru.poryadok5.app user=0
+06-06 04:14:03.590   553   752 D ShortcutService: rescanPackageIfNeeded 0@ru.poryadok5.app, forceRescan=true , isNewApp=true
+06-06 04:14:03.595   553   752 D ShortcutService: Package ru.poryadok5.app has 0 manifest shortcut(s), and 0 share target(s)
+06-06 04:14:03.600   911  1034 D ImsResolver: maybeAddedImsService, packageName: ru.poryadok5.app
+06-06 04:14:07.809  4410  4412 I artd    : Dex parent of /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk is not writable: Permission denied
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking odex in dalvik-cache (/data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex)
+06-06 04:14:07.809  4410  4412 I artd    : Loading /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex with executable: 0
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.dex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking odex next to the dex file (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex)
+06-06 04:14:07.809  4410  4412 I artd    : Loading /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex with executable: 0
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.odex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking vdex in dalvik-cache (/data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex)
+06-06 04:14:07.809  4410  4412 I artd    : unable to open vdex file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex: File /data/dalvik-cache/arm64/data@app@~~L9xXId8aH7QB-LE1bVJXbg==@ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==@base.apk@classes.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking vdex next to the dex file (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex)
+06-06 04:14:07.809  4410  4412 I artd    : unable to open vdex file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex: File /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/oat/arm64/base.vdex does not exist.
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking dm (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm)
+06-06 04:14:07.809  4410  4412 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm: I/O error
+06-06 04:14:07.809  4410  4412 I artd    : GetBestInfo checking dm (/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm)
+06-06 04:14:07.809  4410  4412 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:14:07.809  4410  4412 I artd    : OatFileAssistant test for existing oat file /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm: I/O error
+06-06 04:14:16.885  4414  4414 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-06 04:14:16.886  4414  4414 I AndroidRuntime: Using default boot image
+06-06 04:14:16.886  4414  4414 I AndroidRuntime: Leaving lock profiling enabled
+06-06 04:14:16.928  4414  4414 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+06-06 04:14:16.928  4414  4414 W Monkey  : args: [-p, ru.poryadok5.app, 1]
+06-06 04:14:16.929  4414  4414 W Monkey  :  arg: "ru.poryadok5.app"
+06-06 04:14:16.929  4414  4414 W Monkey  : data="ru.poryadok5.app"
+06-06 04:14:16.938  4414  4414 I AndroidRuntime: VM exiting with result code -5.
+06-06 04:14:30.718   553   889 V SplashScreenExceptionList: SplashScreen checking exception for package ru.poryadok5.app (target sdk:35) -> false
+06-06 04:14:30.719   553   889 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity} with LAUNCH_MULTIPLE from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+06-06 04:14:30.720   786   830 V WindowManagerShell: Transition requested (#24): android.os.BinderProxy@315e0bf TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=566 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=462415 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@d85138c} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{7e62ad5 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 24 }
+06-06 04:14:30.721  1078  1078 I TopTaskTracker: onTaskMovedToFront: (moved taskInfo to front) taskId=566, baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity }
+06-06 04:14:30.727   553   585 I ActivityManager: Start proc 4434:ru.poryadok5.app/u0a168 for next-top-activity {ru.poryadok5.app/ru.poryadok5.app.MainActivity}
+06-06 04:14:30.730   553   889 D CoreBackPreview: Window{3d35605 u0 Splash Screen ru.poryadok5.app}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f0ca568, mPriority=0, mIsAnimationCallback=false}
+06-06 04:14:30.739   553   574 V WindowManager: Sent Transition (#24) createdAt=06-06 04:14:30.717 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=566 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=ru.poryadok5.app/.MainActivity } baseActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} topActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} origActivity=null realActivity=ComponentInfo{ru.poryadok5.app/ru.poryadok5.app.MainActivity} numActivities=1 lastActiveTime=462415 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{8357a67 Task{9819c50 #566 type=standard A=10168:ru.poryadok5.app}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=null topActivityInfo=ActivityInfo{cbab014 ru.poryadok5.app.MainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false topActivityEligibleForLetterboxEducation= falseisLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false topActivityEligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2400 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false cameraCompatTaskInfo=CameraCompatTaskInfo { cameraCompatControlState=hidden freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 24 }
+06-06 04:14:30.739   553   574 V WindowManager:         {WCT{RemoteToken{8357a67 Task{9819c50 #566 type=standard A=10168:ru.poryadok5.app}}} m=OPEN f=NONE leash=Surface(name=Task=566)/@0x9384d81 sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1},
+06-06 04:14:30.799  4434  4434 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:14:30.799  4434  4434 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:14:30.979  4434  4434 D nativeloader: Configuring clns-7 for other apk /data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk. target_sdk_version=35, uses_libraries=, library_path=/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/lib/arm64:/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/ru.poryadok5.app
+06-06 04:14:31.244   553  4394 D CoreBackPreview: Window{51182b0 u0 ru.poryadok5.app/ru.poryadok5.app.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@c8419dc, mPriority=0, mIsAnimationCallback=false}
+06-06 04:14:31.324   553   574 W ziparchive: Unable to open '/data/app/~~L9xXId8aH7QB-LE1bVJXbg==/ru.poryadok5.app-AvL2IGgb-zyoL7-ZWkjKAg==/base.dm': No such file or directory
+06-06 04:14:31.324   553   574 I ActivityTaskManager: Displayed ru.poryadok5.app/.MainActivity for user 0: +607ms
+06-06 04:14:31.348   553   844 D CoreBackPreview: Window{3d35605 u0 Splash Screen ru.poryadok5.app EXITING}: Setting back callback null
+06-06 04:14:31.348   553   668 I ImeTracker: ru.poryadok5.app:cd12ba04: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+06-06 04:14:31.348   553  3202 W InputManager-JNI: Input channel object '3d35605 Splash Screen ru.poryadok5.app (client)' was disposed without first being removed with the input manager!
+06-06 04:14:31.348   553   668 I ImeTracker: ru.poryadok5.app:cd12ba04: onCancelled at PHASE_SERVER_SHOULD_HIDE
+06-06 04:14:36.351  4434  4464 D ProfileInstaller: Installing profile for ru.poryadok5.app

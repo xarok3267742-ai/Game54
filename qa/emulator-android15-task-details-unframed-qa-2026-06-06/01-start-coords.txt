@@ -1,0 +1,1 @@
+Начать center from 01-onboarding.xml clickable bounds [53,1832][1027,1969]: 540 1900

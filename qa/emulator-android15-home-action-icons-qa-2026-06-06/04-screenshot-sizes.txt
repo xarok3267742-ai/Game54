@@ -1,0 +1,8 @@
+qa/emulator-android15-home-action-icons-qa-2026-06-06/02-home-action-icons.png: PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced
+screenshots/play-store/02-home.png: PNG image data, 1080 x 2400, 8-bit/color RGBA, non-interlaced
+/Users/andrejivliev/Desktop/54 Game/qa/emulator-android15-home-action-icons-qa-2026-06-06/02-home-action-icons.png
+  pixelWidth: 1080
+  pixelHeight: 2400
+/Users/andrejivliev/Desktop/54 Game/screenshots/play-store/02-home.png
+  pixelWidth: 1080
+  pixelHeight: 2400

@@ -1,0 +1,44 @@
+{
+  "appId": "ru.poryadok5.app",
+  "artifacts": {
+    "debugApk": {
+      "bytes": 12890811,
+      "exists": true,
+      "path": "app/build/outputs/apk/debug/app-debug.apk",
+      "sha256": "26dd1f0e726e8d67c04ac91955ee1d365965d0df80e5cde6fe569c99958558f1"
+    },
+    "packetReleaseAab": {
+      "exists": false,
+      "path": "play-submission/release/app-release.aab"
+    },
+    "releaseAab": {
+      "bytes": 8933743,
+      "exists": true,
+      "path": "app/build/outputs/bundle/release/app-release.aab",
+      "sha256": "dad65782860e97028e3f76aa989a5b9e134df091aeecc190eac5ebf4d4c400c8",
+      "signatureStatus": "unsigned"
+    }
+  },
+  "localRcReady": true,
+  "packetArtifactStatus": {
+    "artifact": "not_included_unsigned_local_rc",
+    "reason": "release AAB is unsigned",
+    "signed_or_configured": "false"
+  },
+  "playUploadReady": false,
+  "schemaVersion": 1,
+  "uploadBlockers": [
+    "release_signing_inputs_missing",
+    "signed_upload_aab_missing",
+    "public_privacy_policy_url_missing",
+    "support_email_missing",
+    "privacy_policy_contact_not_replaced",
+    "feature_graphic_not_confirmed",
+    "data_safety_not_confirmed",
+    "target_audience_not_confirmed",
+    "content_rating_not_confirmed",
+    "internal_testing_not_confirmed"
+  ],
+  "versionCode": 1,
+  "versionName": "1.0.0-rc1"
+}

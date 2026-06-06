@@ -1,0 +1,1 @@
+Все шаги center from 02-home.xml clickable bounds [553,1347][1027,1484]: 790 1415

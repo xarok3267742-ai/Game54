@@ -1,0 +1,2 @@
+package:com.andrejivliev.fiftyfive
+package:com.betguidepoland.app

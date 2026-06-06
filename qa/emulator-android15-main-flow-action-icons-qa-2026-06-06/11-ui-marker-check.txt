@@ -1,0 +1,6 @@
+01-onboarding.xml: PASS Порядок 5, Начать, ru.poryadok5.app
+02-home.xml: PASS Порядок 5, Все шаги, Запустить таймер, ru.poryadok5.app
+03-details.xml: PASS Перед стартом, Начать 5 мин, ru.poryadok5.app
+04-timer.xml: PASS Таймер, Готово, ru.poryadok5.app
+05-result.xml: PASS Готово, Посмотреть следующую, Посмотреть итоги, ru.poryadok5.app
+06-progress.xml: PASS Итоги, 1 из 80, Продолжить с задачей, ru.poryadok5.app

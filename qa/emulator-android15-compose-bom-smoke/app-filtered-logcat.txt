@@ -1,0 +1,182 @@
+05-27 16:11:25.680   560  3135 V SplashScreenExceptionList: SplashScreen checking exception for package com.andrejivliev.fiftyfive (target sdk:35) -> false
+05-27 16:11:25.716   560  5605 I AppsFilter: interaction: PackageSetting{9d6af7b ru.poryadok5.app/10157} -> PackageSetting{6d96e85 com.andrejivliev.fiftyfive/10210} BLOCKED
+05-27 16:11:25.803   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:25.803   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:25.806   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:25.844   560   604 V WindowManager:         {WCT{RemoteToken{20044ea Task{77ed865 #286 type=standard A=10157:ru.poryadok5.app}}} m=TO_BACK f=NONE leash=Surface(name=Task=286)/@0x1d978de sb=Rect(0, 0 - 1080, 2400) eb=Rect(0, 0 - 1080, 2400) d=0 taskParent=-1}
+05-27 16:11:26.810   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:26.810   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:26.812   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:27.815   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:27.816   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:27.819   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:28.084  3818  3818 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:28.087  3818  3818 I AndroidRuntime: Using default boot image
+05-27 16:11:28.088  3818  3818 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:28.244  3818  3818 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:28.403   560   640 I AppsFilter: interaction: PackageSetting{9d6af7b ru.poryadok5.app/10157} -> PackageSetting{2ed86ac com.betguidepoland.app/10180} BLOCKED
+05-27 16:11:28.403   560   640 I AppsFilter: interaction: PackageSetting{9d6af7b ru.poryadok5.app/10157} -> PackageSetting{2ed86ac com.betguidepoland.app/10180} BLOCKED
+05-27 16:11:28.822   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:28.824   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:28.825   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:29.413  3818  3818 D AndroidRuntime: Shutting down VM
+05-27 16:11:29.829   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:29.830   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:29.833   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:30.836   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:30.837   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:30.838   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:31.849   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:31.857   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:31.860   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:32.427  3878  3878 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:32.435  3878  3878 I AndroidRuntime: Using default boot image
+05-27 16:11:32.435  3878  3878 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:32.605  3878  3878 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:32.866   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:32.866   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:32.867   560  9116 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:33.636  3878  3878 D AndroidRuntime: Shutting down VM
+05-27 16:11:33.872   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:33.873   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:33.879   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:34.602  3904  3904 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:34.609  3904  3904 I AndroidRuntime: Using default boot image
+05-27 16:11:34.609  3904  3904 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:34.722   560   806 W FileUtils: Failed to chmod(AtomicFile[/data/system_de/0/system/game-manager-service.xml]): android.system.ErrnoException: chmod failed: ENOENT (No such file or directory)
+05-27 16:11:34.882   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:34.883   560  5605 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:34.884   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:34.899  3904  3904 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:35.258  3922  3922 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:35.263  3922  3922 I AndroidRuntime: Using default boot image
+05-27 16:11:35.263  3922  3922 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:35.452  3922  3922 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:35.457  3922  3922 D AndroidRuntime: Shutting down VM
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: FATAL EXCEPTION: main
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: PID: 3922
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: java.lang.IllegalStateException: UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@a4e3830already registered!
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:3250)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:3226)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3209)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:3151)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.view.accessibility.IAccessibilityManager$Stub$Proxy.registerUiTestAutomationService(IAccessibilityManager.java:1098)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.UiAutomationConnection.registerUiTestAutomationServiceLocked(UiAutomationConnection.java:651)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.UiAutomationConnection.connect(UiAutomationConnection.java:119)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.UiAutomation.connectWithTimeout(UiAutomation.java:385)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.UiAutomation.connect(UiAutomation.java:330)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.uiautomator.core.UiAutomationShellWrapper.connect(UiAutomationShellWrapper.java:36)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.commands.uiautomator.DumpCommand.run(DumpCommand.java:78)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:369)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.server.accessibility.UiAutomationManager.registerUiTestAutomationServiceLocked(UiAutomationManager.java:109)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.server.accessibility.AccessibilityManagerService.registerUiTestAutomationService(AccessibilityManagerService.java:1489)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.view.accessibility.IAccessibilityManager$Stub.onTransact(IAccessibilityManager.java:546)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Binder.execTransactInternal(Binder.java:1500)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.Binder.execTransact(Binder.java:1444)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: Error reporting crash
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:586)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:441)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:428)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:175)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.ActivityManager$3.create(ActivityManager.java:5692)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.ActivityManager$3.create(ActivityManager.java:5689)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:44)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:5680)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:170)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1071)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1066)
+05-27 16:11:35.458  3922  3922 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2306)
+05-27 16:11:35.886   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:35.887   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:35.888   560   927 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:36.068  3904  3904 D AndroidRuntime: Shutting down VM
+05-27 16:11:36.159  3940  3940 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:36.164  3940  3940 I AndroidRuntime: Using default boot image
+05-27 16:11:36.164  3940  3940 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:36.327  3940  3940 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:36.891   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:36.892   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:36.894   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:37.374  3940  3940 D AndroidRuntime: Shutting down VM
+05-27 16:11:37.899   560  1048 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:37.900   560  1048 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:37.901   560  1048 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:38.889  3958  3958 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:38.896  3958  3958 I AndroidRuntime: Using default boot image
+05-27 16:11:38.897  3958  3958 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:38.902   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:38.903   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:38.904   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:39.038  3958  3958 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:39.907   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:39.908   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:39.910   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:40.082  3958  3958 D AndroidRuntime: Shutting down VM
+05-27 16:11:40.913   560  1311 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:40.913   560  1311 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:40.915   560  1311 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:41.581  3975  3975 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:41.587  3975  3975 I AndroidRuntime: Using default boot image
+05-27 16:11:41.587  3975  3975 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:41.722  3975  3975 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:41.929   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:41.951   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:41.952   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:42.753  3975  3975 D AndroidRuntime: Shutting down VM
+05-27 16:11:42.956   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:42.957   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:42.958   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:43.963   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:43.965   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:43.966   560  4770 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:44.317  3997  3997 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:44.321  3997  3997 I AndroidRuntime: Using default boot image
+05-27 16:11:44.321  3997  3997 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:44.451  3997  3997 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:44.659   560   679 D ActivityManager: freezing 2739 ru.poryadok5.app
+05-27 16:11:44.970   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:44.970   560  3156 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:44.973   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:45.514  3997  3997 D AndroidRuntime: Shutting down VM
+05-27 16:11:45.976   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:45.977   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:45.978   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:46.982   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:46.983   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:46.984   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:47.987   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:47.987   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:47.994   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:48.997   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:48.997   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:48.998   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:50.001   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:50.001   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:50.002   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:50.306  4026  4026 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+05-27 16:11:50.311  4026  4026 I AndroidRuntime: Using default boot image
+05-27 16:11:50.311  4026  4026 I AndroidRuntime: Leaving lock profiling enabled
+05-27 16:11:50.437  4026  4026 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+05-27 16:11:51.005   560  9116 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:51.006   560  9116 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:51.007   560  9116 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:51.600  4026  4026 D AndroidRuntime: Shutting down VM
+05-27 16:11:52.014   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:52.014   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:52.015   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:53.017   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:53.018   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:53.019   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:54.022   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:54.023   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:54.025   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:55.027   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:55.027   560  3135 W BestClock: java.time.DateTimeException: Missing network time fix
+05-27 16:11:55.027   560  1596 W BestClock: java.time.DateTimeException: Missing network time fix

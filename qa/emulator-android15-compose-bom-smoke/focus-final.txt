@@ -1,0 +1,2 @@
+  mCurrentFocus=Window{5cf4b96 u0 com.betguidepoland.app/com.betguidepoland.app.MainActivity}
+  mFocusedApp=ActivityRecord{b2886e5 u0 com.betguidepoland.app/.MainActivity t292}
