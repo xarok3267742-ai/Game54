@@ -70,7 +70,7 @@ scripts/prepare_play_upload_candidate.sh
 
 ## Signed AAB Through GitHub Actions
 
-Workflow `.github/workflows/signed-aab.yml` builds a signed `app-release.aab` from GitHub without committing a keystore. Add these repository secrets before running it:
+The workflow template in `docs/signed-aab-workflow.yml` builds a signed `app-release.aab` from GitHub without committing a keystore. To enable it, copy that file to `.github/workflows/signed-aab.yml` using a GitHub token/account that has `workflow` scope, then add these repository secrets before running it:
 
 - `PORYADOK5_KEYSTORE_BASE64` — base64 of the upload `.jks` file.
 - `PORYADOK5_KEYSTORE_PASSWORD`
@@ -87,4 +87,4 @@ Optional secrets for a stricter Play handoff packet:
 - `PORYADOK5_CONTENT_RATING_CONFIRMED=yes`
 - `PORYADOK5_INTERNAL_TESTING_CONFIRMED=yes`
 
-Run **Actions → Build signed AAB → Run workflow**. The workflow verifies release signing with `jarsigner`, uploads `poryadok5-signed-aab` as an Actions artifact, and can attach the AAB to a GitHub Release when `create_github_release` is enabled.
+Run **Actions → Build signed AAB → Run workflow** after the workflow file is enabled. The workflow verifies release signing with `jarsigner`, uploads `poryadok5-signed-aab` as an Actions artifact, and can attach the AAB to a GitHub Release when `create_github_release` is enabled.

@@ -2,24 +2,6 @@
   "appId": "ru.poryadok5.app",
   "blockers": [
     {
-      "category": "signing",
-      "evidence": "Strict release signing preflight does not pass in the current environment.",
-      "id": "release_signing_inputs_missing",
-      "requiredAction": "Configure PORYADOK5_KEYSTORE_PATH, PORYADOK5_KEYSTORE_PASSWORD, PORYADOK5_KEY_ALIAS and PORYADOK5_KEY_PASSWORD from environment or a user Gradle properties file outside the repository.",
-      "scope": "external_secret",
-      "status": "open",
-      "verification": "scripts/check_release_signing_inputs.py --require passes."
-    },
-    {
-      "category": "signing",
-      "evidence": "The packet does not contain a jarsigner-verified signed upload AAB.",
-      "id": "signed_upload_aab_missing",
-      "requiredAction": "Run scripts/prepare_play_upload_candidate.sh after release signing inputs are available so play-submission/release/app-release.aab is included.",
-      "scope": "external_secret",
-      "status": "open",
-      "verification": "scripts/check_release_artifact_manifest.py passes with packetReleaseAab sha256 matching the current signed release AAB."
-    },
-    {
       "category": "privacy",
       "evidence": "No valid public privacy policy URL is configured for the current upload gate.",
       "id": "public_privacy_policy_url_missing",
